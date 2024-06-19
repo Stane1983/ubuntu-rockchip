@@ -1,0 +1,51 @@
+Origin: Stan's Repository
+Label: Stan's Rockchip repository
+Suite: noble-rockchip
+Codename: noble
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Stan's Rockchip repository
+Date: Wed, 19 Jun 2024 18:49:36 +0000
+MD5Sum:
+ 7d7e1f5014df7099dd0a0a29ab9d8acc 1937 main/binary-arm64/Packages.gz
+ 1dc52be09f7c8e440a13062e88c922dc 2070 main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
+ bb7bf777dc7c18a84a4c4305a12497e6 31546 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
+ 52d8e5dc211956afd49c723464909cb1 888058 main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
+ aedcf7ceb51c35e30e24a205e989a515 2966 main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
+ 765376cae96698bce97d3a86b01791f0 73090 main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
+ 769caef947d850e92c9d302c4b36a2dc 10750 main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
+ 410b619deb142ed8edcfa695bdcaa3b0 127942 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
+ a9ce9ec4d831c5cf3aa79d2f931f2fdb 68712 main/binary-arm64/librga2_2.2.0-1_arm64.deb
+ 2a941e95b73702883ded110353b4c2b0 46050 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
+ 0ce0d5b71012549b4bc7d4544deae593 6400 main/binary-arm64/Packages
+ 46a452972466b901c52eda4890a80afc 21234 main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+ 5d73cc74c146b4274f3250be61a1fae3 18052 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
+SHA1:
+ 49ddded93d6608d7aab51119dfd4e94b49988cac 1937 main/binary-arm64/Packages.gz
+ 9859c0f16d924cae1441574459814595bc12fd73 2070 main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
+ bd8ab3b418829964c14b750a18b67e410d4c2f04 31546 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
+ 32babccfb877d0237e4bd214b476ebed87e83273 888058 main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
+ c5828eb6cdc9e30a52eaa232c111c8e54948e9a6 2966 main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
+ 594740802e2a94754f8580897a79bba3ba2de54c 73090 main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
+ ab35d34882700281d136eb00e03da00ca117153d 10750 main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
+ cba13b0cb2edbb32e6ef74f0b55b2bb69d00c9d3 127942 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
+ abae98baa3ed4c2c7a600d04fa64eb0495df0c43 68712 main/binary-arm64/librga2_2.2.0-1_arm64.deb
+ de30556fc6e0112aa1f33fc7414e307fea029c1a 46050 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
+ 1e86e6914ad9d761c6ab6d527969c97372a143e0 6400 main/binary-arm64/Packages
+ 58776d841a0b71da5ef73fe7208a5b75f20bd8d0 21234 main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+ 24d5c86876d6aad7aa2c8baa429bfcd9b57649a0 18052 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
+SHA256:
+ 9b3dffa73b6fdbb086e2b68c0b0fbd45f59962bc953432404d7b9017e5fbe7da 1937 main/binary-arm64/Packages.gz
+ 2e8b44fe8c49bdc124037f48c0505ad8963fd881c56d8133a07285abfb2a4936 2070 main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
+ 075a188880a847ef892bc7eb2df77348267d5fccae2e819727c63dd543c63d9e 31546 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
+ 5e12d393a0716156e74ea7d9e6a6880766b3d23ece195098415a01b8051f197b 888058 main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
+ b682b4eb18c27b73939f0ab64da01e1ee875dded807b85b523329e849214d196 2966 main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
+ ab469f806ac607b7be7acee51626f32bf7f70dbf6313eb1630b80d5e1c7e79db 73090 main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
+ 1809f9a061442528aed17681681166c8485c19dc5f6133d3a8edbfbef7561007 10750 main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
+ f2c57bd1a5b7315f4b9f6e38e289431eaf8c92a779730692920229cdcbd74c5a 127942 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
+ b7a69b18224ae341f3254638dad430473ea2afc1ec3537d0147ca507529be263 68712 main/binary-arm64/librga2_2.2.0-1_arm64.deb
+ 464657acc9a2cab958216b65ab68615019b994e63a3491570d5208ce27415385 46050 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
+ 5af5820d6cb6dae4e3fcf297442d8671e4e4eecc631a925462c545f3610ad506 6400 main/binary-arm64/Packages
+ fc4941e6481590c44b2e3ae0981b20d920aeb25afcebd6769559c0dfa309ffd3 21234 main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+ 1b5d8484e7490becf36bb04557258207629088c2b32315b742717d7a13fa5978 18052 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb

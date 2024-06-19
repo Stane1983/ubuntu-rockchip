@@ -1,0 +1,182 @@
+Package: gstreamer1.0-rockchip1
+Source: gstreamer1.0-rockchip
+Version: 1.14-4
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 348
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.108), libglib2.0-0t64 (>= 2.79.0), libgstreamer-plugins-base1.0-0 (>= 1.14), libgstreamer1.0-0 (>= 1.14), librga2, librockchip-mpp1, libx11-6
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
+Size: 73090
+MD5sum: 765376cae96698bce97d3a86b01791f0
+SHA1: 594740802e2a94754f8580897a79bba3ba2de54c
+SHA256: ab469f806ac607b7be7acee51626f32bf7f70dbf6313eb1630b80d5e1c7e79db
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/gstreamer-rockchip
+Description: The Gstreamer plugins for Rockchip platforms.
+
+Package: libdrm-cursor
+Version: 1.4.1-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 84
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.71), libegl1, libgbm1 (>= 17.3.0~rc1), libgles2
+Filename: dists/noble/main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+Size: 21234
+MD5sum: 46a452972466b901c52eda4890a80afc
+SHA1: 58776d841a0b71da5ef73fe7208a5b75f20bd8d0
+SHA256: fc4941e6481590c44b2e3ae0981b20d920aeb25afcebd6769559c0dfa309ffd3
+Section: libs
+Priority: optional
+Homepage: https://github.com/JeffyCN/libdrm-cursor
+Description: A hook of drm cursor APIs to fake cursor plane.
+
+Package: libdrm-cursor-dev
+Source: libdrm-cursor
+Version: 1.4.1-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 14
+Filename: dists/noble/main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
+Size: 2966
+MD5sum: aedcf7ceb51c35e30e24a205e989a515
+SHA1: c5828eb6cdc9e30a52eaa232c111c8e54948e9a6
+SHA256: b682b4eb18c27b73939f0ab64da01e1ee875dded807b85b523329e849214d196
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/JeffyCN/libdrm-cursor
+Description: A hook of drm cursor APIs to fake cursor plane.
+
+Package: libdrm-mirror
+Version: 1.0.0-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 84
+Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.47)
+Filename: dists/noble/main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
+Size: 10750
+MD5sum: 769caef947d850e92c9d302c4b36a2dc
+SHA1: ab35d34882700281d136eb00e03da00ca117153d
+SHA256: 1809f9a061442528aed17681681166c8485c19dc5f6133d3a8edbfbef7561007
+Section: libs
+Priority: optional
+Homepage: https://github.com/JeffyCN/libdrm-mirror
+Description: A hook of legacy DRM APIs to mirror connectors.
+
+Package: libdrm-mirror-dev
+Source: libdrm-mirror
+Version: 1.0.0-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 14
+Filename: dists/noble/main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
+Size: 2070
+MD5sum: 1dc52be09f7c8e440a13062e88c922dc
+SHA1: 9859c0f16d924cae1441574459814595bc12fd73
+SHA256: 2e8b44fe8c49bdc124037f48c0505ad8963fd881c56d8133a07285abfb2a4936
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/JeffyCN/libdrm-mirror
+Description: A hook of legacy DRM APIs to mirror connectors.
+
+Package: librga-dev
+Source: librga
+Version: 2.2.0-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 137
+Filename: dists/noble/main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
+Size: 18052
+MD5sum: 5d73cc74c146b4274f3250be61a1fae3
+SHA1: 24d5c86876d6aad7aa2c8baa429bfcd9b57649a0
+SHA256: 1b5d8484e7490becf36bb04557258207629088c2b32315b742717d7a13fa5978
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/rockchip-linux/linux-rga
+Description: Userspace interface to Rockchip RGA 2D accelerator
+
+Package: librga2
+Source: librga
+Version: 2.2.0-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 211
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: dists/noble/main/binary-arm64/librga2_2.2.0-1_arm64.deb
+Size: 68712
+MD5sum: a9ce9ec4d831c5cf3aa79d2f931f2fdb
+SHA1: abae98baa3ed4c2c7a600d04fa64eb0495df0c43
+SHA256: b7a69b18224ae341f3254638dad430473ea2afc1ec3537d0147ca507529be263
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/linux-rga
+Description: Userspace interface to Rockchip RGA 2D accelerator
+
+Package: librockchip-mpp-dev
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 229
+Depends: librockchip-mpp1 (= 1.5.0-1)
+Filename: dists/noble/main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
+Size: 46050
+MD5sum: 2a941e95b73702883ded110353b4c2b0
+SHA1: de30556fc6e0112aa1f33fc7414e307fea029c1a
+SHA256: 464657acc9a2cab958216b65ab68615019b994e63a3491570d5208ce27415385
+Section: libdevel
+Priority: optional
+Homepage: http://www.rock-chips.com
+Description: Media Process Platform
+
+Package: librockchip-mpp1
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 2144
+Depends: libc6 (>= 2.38), libstdc++6 (>= 5)
+Filename: dists/noble/main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
+Size: 888058
+MD5sum: 52d8e5dc211956afd49c723464909cb1
+SHA1: 32babccfb877d0237e4bd214b476ebed87e83273
+SHA256: 5e12d393a0716156e74ea7d9e6a6880766b3d23ece195098415a01b8051f197b
+Section: libs
+Priority: optional
+Homepage: http://www.rock-chips.com
+Description: Media Process Platform
+
+Package: librockchip-vpu0
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
+Filename: dists/noble/main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
+Size: 31546
+MD5sum: bb7bf777dc7c18a84a4c4305a12497e6
+SHA1: bd8ab3b418829964c14b750a18b67e410d4c2f04
+SHA256: 075a188880a847ef892bc7eb2df77348267d5fccae2e819727c63dd543c63d9e
+Section: libs
+Priority: optional
+Homepage: http://www.rock-chips.com
+Description: Media Process Platform
+
+Package: rockchip-mpp-demos
+Source: mpp
+Version: 1.5.0-1
+Architecture: arm64
+Maintainer: Randy Li <randy.li@rock-chips.com>
+Installed-Size: 1067
+Depends: librockchip-mpp1 (= 1.5.0-1), librockchip-vpu0 (= 1.5.0-1)
+Filename: dists/noble/main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
+Size: 127942
+MD5sum: 410b619deb142ed8edcfa695bdcaa3b0
+SHA1: cba13b0cb2edbb32e6ef74f0b55b2bb69d00c9d3
+SHA256: f2c57bd1a5b7315f4b9f6e38e289431eaf8c92a779730692920229cdcbd74c5a
+Section: libs
+Priority: optional
+Homepage: http://www.rock-chips.com
+Description: Media Process Platform Demos
+
