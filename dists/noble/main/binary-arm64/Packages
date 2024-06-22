@@ -1,3 +1,14 @@
+Package: brcm-patchram
+Version: 11.0.0
+Architecture: arm64
+Maintainer: Stanislav Vlasic
+Filename: dists/noble/main/binary-arm64/brcm-patchram_11.0.0_arm64.deb
+Size: 12808
+MD5sum: cc212777acb12aaef74ec16d570159ac
+SHA1: a591542b6d8161a950ff6337c419aabe917e3d10
+SHA256: 16c58cea4540ec6d94e9b2ba9d14e56897fa623d18fd78bc7f8c4b65a1d78d07
+Description: Linux support for Broadcom BT modules
+
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
 Version: 1.14-4
