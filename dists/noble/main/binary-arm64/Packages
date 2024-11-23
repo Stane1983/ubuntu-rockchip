@@ -9,6 +9,36 @@ SHA1: a591542b6d8161a950ff6337c419aabe917e3d10
 SHA256: 16c58cea4540ec6d94e9b2ba9d14e56897fa623d18fd78bc7f8c4b65a1d78d07
 Description: Linux support for Broadcom BT modules
 
+Package: gir1.2-gstreamer-1.0
+Source: gstreamer1.0
+Version: 1.24.2-1
+Architecture: arm64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 357
+Depends: gir1.2-gio-2.0, gir1.2-glib-2.0, gir1.2-gmodule-2.0, gir1.2-gobject-2.0, libgstreamer1.0-0 (>= 1.23.90)
+Filename: dists/noble/main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
+Size: 90936
+MD5sum: 12aa82141a3e6717cea6091000e18db1
+SHA1: a28a05f6aceeba3ee182b1767894a105aef7da3a
+SHA256: 5a5c3a5d63592932542fd52fe14b8f25b72771a2ccf3d5f10e6d5147dd7811d3
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GObject introspection data for the GStreamer library
+ This package contains introspection data for the GStreamer streaming media
+ framework.
+ .
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
 Version: 1.14-4
@@ -25,6 +55,32 @@ Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/gstreamer-rockchip
 Description: The Gstreamer plugins for Rockchip platforms.
+
+Package: gstreamer1.0-tools
+Source: gstreamer1.0
+Version: 1.24.2-1
+Architecture: arm64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 463
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.75.3), libgstreamer1.0-0 (>= 1.23.90)
+Suggests: gstreamer1.0-plugins-base
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-tools_1.24.2-1_arm64.deb
+Size: 68376
+MD5sum: 1551c9d5b25abbaa2f12a4c93a1b4c28
+SHA1: 9fcb147e32f57104c2e2019d857af6377adfd199
+SHA256: 2ec0e54049b03788f2e9f13f26959e2abfd36ac5aa0f47cdc6d269107885c222
+Section: utils
+Priority: optional
+Homepage: https://gstreamer.freedesktop.org
+Description: Tools for use with GStreamer
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains versioned command-line tools for GStreamer.
 
 Package: libdrm-cursor
 Version: 1.4.1-1
@@ -89,6 +145,61 @@ Section: libdevel
 Priority: optional
 Homepage: https://github.com/JeffyCN/libdrm-mirror
 Description: A hook of legacy DRM APIs to mirror connectors.
+
+Package: libgstreamer1.0-0
+Source: gstreamer1.0
+Version: 1.24.2-1
+Architecture: arm64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 5308
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdw1t64 (>= 0.126), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.79.0), libunwind8, libcap2-bin
+Suggests: gstreamer1.0-tools
+Filename: dists/noble/main/binary-arm64/libgstreamer1.0-0_1.24.2-1_arm64.deb
+Size: 1412886
+MD5sum: 4a4d11914c3c7a18d18ee9d3ff40cfb1
+SHA1: 8be7d26ab694427685a15bfb740c4b148ae70b93
+SHA256: b068c8c6f6df4d69be90637bbf2cc20055f2f5b7ed9586115aa293e66baa42fe
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: Core GStreamer libraries and elements
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the core library and elements.
+
+Package: libgstreamer1.0-dev
+Source: gstreamer1.0
+Version: 1.24.2-1
+Architecture: arm64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 6281
+Depends: libgstreamer1.0-0 (= 1.24.2-1), libc6-dev | libc-dev, pkgconf, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), gir1.2-gstreamer-1.0 (= 1.24.2-1)
+Suggests: gstreamer1.0-doc
+Filename: dists/noble/main/binary-arm64/libgstreamer1.0-dev_1.24.2-1_arm64.deb
+Size: 526756
+MD5sum: 09599f3c48c8df353b6b612aba2a745e
+SHA1: 4d949eef7b9a9e1125251c9d58cfe96d49dbedf8
+SHA256: a52a6137cb9f4f6db44068e2da485b6072a2712b5a1fcabae408ac965342b227
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core development files
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for the core library and
+ elements.
 
 Package: libmali-bifrost-g31-g13p0-gbm
 Source: libmali
