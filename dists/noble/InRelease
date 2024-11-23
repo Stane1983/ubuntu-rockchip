@@ -9,186 +9,246 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Stan's Rockchip repository
-Date: Sat, 22 Jun 2024 06:42:56 +0000
+Date: Sat, 23 Nov 2024 17:13:09 +0000
 MD5Sum:
- 63e90ffc2e6ef44d00b57f5e92714e11 20119 InRelease
- 632b0cec0748f47d57a09c547425d042 13626942 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
- c40c9819b63d4e21f98105f1f4187bb0 6595 main/binary-arm64/Packages.gz
- d095e8b477f758170ea67557c3be842f 14468754 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
- 476a904e5709db1f124830a3e12f7c1b 13651896 main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
+ 1996c32b6d15dd550f785f2f7caf5d2c 20119 InRelease
+ 7dcf2d4e0ee5ee96c10c513a65758ce1 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 3394b811348b39b96035f73a78f37eda 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 447825f561a593acb71b4fc2759b1e94 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
+ 16de191214ecfa87c5faf4d9c99e7301 8895 main/binary-arm64/Packages.gz
+ a126a45e547bb2afd1ee2d25b86e6418 14508996 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
+ d287b802b4f3e089e0bb1d2568d0c15a 13637238 main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
  1dc52be09f7c8e440a13062e88c922dc 2070 main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
  bb7bf777dc7c18a84a4c4305a12497e6 31546 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
  52d8e5dc211956afd49c723464909cb1 888058 main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
- 3a65cb2212c5adba9ab86c152a09044b 13612322 main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
- eb190e24d2115ca5e404458966bde431 14655836 main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
- b41440899985dc017b21888cbd935fe8 13966812 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
- 3178ead1f6e908a6c533d20ed1d4eccd 608580 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+ fb2bf173f9a82062c647aca8165cde91 13631002 main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
+ b9dc26de0c0f8c6b5117e65080970565 14624594 main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
+ 68ae010ae3fbf8f9faa9bfe34105d4f3 14009528 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
+ 8dd7db86ba8fce974e82d5cdccdd9e31 611482 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  aedcf7ceb51c35e30e24a205e989a515 2966 main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
  765376cae96698bce97d3a86b01791f0 73090 main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
- 238cc484d5f709a94fa6a869ec2b0de8 14458358 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
- 2f5944956482744f13380a88a5bfb775 6548320 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ fdeaf530c7f5d657ecab97dd723a2058 18490848 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 76096e4c36c5280824794a29f07a3dcd 14457330 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
+ ef7f7a1de5b2cbe6ef3f2d428bedb2bc 6539094 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ cd12d4c2ed6d87fe8c4ed9e5b4b94eac 18469140 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy_1.9-1_arm64.deb
  cbf224250ae1498c75a5a7eb3d28dd7a 6524 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
- cb7f4973c5696fece47f86a35ad7b237 9321722 main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
- c5a1ac93bc001c91ec1a7b80dcd10b27 6276508 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
- 31dddce8decd221016fb49dfa3a8f81f 14674476 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
- 1d05bf41abd0fc1cf5c03bb13ecaacee 14509456 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
- 9cbefaec8278952ea179372046ecec29 14470486 main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
+ 91cfc4b8ff6654a47105f27617ad4e81 19179490 main/binary-arm64/libmali-valhall-g610-g24p0-x11-gbm_1.9-1_arm64.deb
+ 1d857971dd71e69187e47b899bc1bf37 9322308 main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
+ 917ff9c266ab1e2407aa6018522d8f8a 6272206 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 8f9cde307d4e92152b283359e4040d27 14635428 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 8c5c463481fabdf95000153819f99bbb 14472280 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
+ 5871c3f696db911d3422ff2022c2e485 14467350 main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
+ 3cc2fc7fe7aeebca1095eae51b367b78 18468138 main/binary-arm64/libmali-bifrost-g52-g24p0-gbm_1.9-1_arm64.deb
  769caef947d850e92c9d302c4b36a2dc 10750 main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
- e383f19949fc40f6d794445776213616 14645074 main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
- 6fb18165e4c543c04e2a7794ec5a4ca6 13995298 main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
- 478137144aff8f8292c48b48cd81057c 601826 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
- 0406028675c5d53695efa155a2a17d1f 14472712 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
- 24ab12a1cefbcdda81e3d888da7904d0 6280352 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
- 4714559b5d1afa6536a6f6b91ab7b4dd 13988634 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
- 4f62559e8e220689079474c088f33a6a 9303416 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
+ a8db631c251a2de08fd6ca6940d14958 14638044 main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
+ dc458d16c6caf8876d0b8234b0108467 19166518 main/binary-arm64/libmali-valhall-g610-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 187c44ad4d209bc26144f967e7d9dba0 13989848 main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
+ 0785d198deb3751b2a836e1de07d2396 605560 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
+ 3fecd0a009f6fa7355c5ba0c559b7fc9 14483338 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
+ 6ccc2e0608d6a28bc3c12ab5053813c0 6272680 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 701e4134b77b68097915966c8c3ecde9 14482736 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-wayland-gbm_1.9-1_arm64.deb
+ d9343ca3a97f549fcd8018866f432e64 13956244 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
+ c6f23266ae1aac2dd7045c3833473f95 9327380 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
+ 1aade1822ada5781ff4858590ef6349f 19166854 main/binary-arm64/libmali-valhall-g610-g24p0-dummy_1.9-1_arm64.deb
  410b619deb142ed8edcfa695bdcaa3b0 127942 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
- 563f6257c6df9a1feb1b83dee995146c 13637172 main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
+ 3359bf9487a012c784951354307f4459 13641162 main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
  a9ce9ec4d831c5cf3aa79d2f931f2fdb 68712 main/binary-arm64/librga2_2.2.0-1_arm64.deb
- acdde0cb21b4bf21ff8264aad7a58e0a 14475366 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
+ b83ed4e553232fb490f52b4de9031397 14489556 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
  2a941e95b73702883ded110353b4c2b0 46050 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
- 3dafc0938913cd7c8e1b3f84c0580aff 34853 main/binary-arm64/Packages
- 69718bcb5a9ffce3ceed3c4eca6ca9ab 14472156 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 64034ee71a7956e4dfa8280346f6aca2 50299 main/binary-arm64/Packages
+ a203d031cb7806ba6853c9a6ebbbe30d 14469324 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 25a0bc74396c6c1512ffd3df416e0b83 19157474 main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
  46a452972466b901c52eda4890a80afc 21234 main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+ b7a7168296e8e7ecdc82bdab0574fc50 18488332 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-wayland-gbm_1.9-1_arm64.deb
  cc212777acb12aaef74ec16d570159ac 12808 main/binary-arm64/brcm-patchram_11.0.0_arm64.deb
- 0beae945ceb08118e2260b3fa94fb9ad 13612370 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
+ 601037349127e549e2f609686be27612 18369598 main/binary-arm64/libmali-bifrost-g31-g24p0-x11-gbm_1.9-1_arm64.deb
+ 80a4032727f6370927b1c24a71711d94 14462716 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 359e8dd75dd55ab13d9c948ede9d4dbf 19159344 main/binary-arm64/libmali-valhall-g610-g24p0-wayland-gbm_1.9-1_arm64.deb
+ ffbc93b42e0793a6e2475af360d0704f 13637170 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
+ 150ef0106bba64dc978028d534f4e15d 18496264 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-gbm_1.9-1_arm64.deb
  5d73cc74c146b4274f3250be61a1fae3 18052 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
- dab708f37dbd9f92a190fabb19e6063a 12429858 main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
- e8219e075604a692fd1009cb8c59650f 13993902 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
- 207b772102a10d42350d692df0aa334f 13983920 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
- de1bb314dc38f36120a5609c18a06b9d 13964394 main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
- f679ea15dc4a4cd1bb0ed0e921674d5d 14477556 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
- b2f63dd02ec0af208eed450c6f27c844 13982770 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
- f58fbefcf6c72844a7a85f259f0a4b07 13961264 main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
- facdbce52900de135f5d844ffa067310 14640012 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
- 76166d67209b4bdb441d48cfd5c7df19 9336080 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
- b73381b63216d1024b1e2de7cff684b2 6554812 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
- 1d8f1ca9626a8f0adc9a6d5043c8c53f 14467752 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
- 736c410a56db55ae76d14939ba749be8 14636812 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
- 9691c1b935123d05fe79a847ec88e2c9 858 Release.gpg
+ 3ee5b3a7ba90a8d65af340d3cbae4de9 12442848 main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
+ 8e3af0555ae9e19cf6cab9337f735f96 14025060 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
+ 55274d96881b121428b369fa60d541b4 18361348 main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
+ a994e33e62d975dce4cc5446d2834cca 13951228 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
+ 70a6b201f929b394da76c4def6d550b7 13954490 main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
+ 93042f6f8669b03dfd17de873f7c4877 14453038 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
+ bac0964389e23515186cd50a88510e48 13952732 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
+ a4a3e50d76ed4fe8f984d78ac3df9f59 7804664 main/binary-arm64/libmali-bifrost-g31-g24p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 93ae531c858ce6d48bf76fbaf8ec0247 13948648 main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
+ c4862a6118d797d8dcf33b1b74749d8b 14639476 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+ a52fa27350362997e1ee8fe0ae70b7a6 18482368 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-gbm_1.9-1_arm64.deb
+ a4df10fd01dda3007c3d313c526f9a2c 9349308 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
+ d0c5eb1c878858b8604e7c1d30bd15af 6547722 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 39b629097679aad1292a2bbc61f06f8c 18487920 main/binary-arm64/libmali-bifrost-g52-g24p0-wayland-gbm_1.9-1_arm64.deb
+ c4ded0ef762e3ca559fa0b207892df88 14491656 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
+ 6d9d053ba34c3b93fdaee5b01ccd400c 14639672 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
+ 7f13fee59518f7a874aa4ef08f33422a 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
+ 35005798ba4ead970d9a544d4fab1655 858 Release.gpg
 SHA1:
- a268c3ce2fdcb5b66a075501bab465e309c819d1 20119 InRelease
- 84525c0189b01c65e74d1888b70555505b71496f 13626942 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
- 1d4a57f4b1d5a6d14cb0b7bc5347d8e03a9781d0 6595 main/binary-arm64/Packages.gz
- 4c02312c8a59574173a1edf7fd9492f482b3d23d 14468754 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
- dc9844959c653ec52fcd696bb3ad04965d4e065a 13651896 main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
+ 8cbe9478bd978ebef24f09e99eaefe36afdfd594 20119 InRelease
+ c46e67e98f904d5f99a2422dabb8ca4bc37bb6a9 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 9d01893f771fff75e9e37db86306cbb4c867bc7b 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ d2e67721db06fd70e8d1f07758eb0bf69cb92bca 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
+ 328aaa80e18c6a4f9d7e9bba9abeb2fb62a9754b 8895 main/binary-arm64/Packages.gz
+ 9b38d9d39a58c5bfba7a951f6db715285db76678 14508996 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
+ 8d48213d2145876a60be129e0db96a33e325a235 13637238 main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
  9859c0f16d924cae1441574459814595bc12fd73 2070 main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
  bd8ab3b418829964c14b750a18b67e410d4c2f04 31546 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
  32babccfb877d0237e4bd214b476ebed87e83273 888058 main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
- ad3ac4bb21fa5dc354e68b4ca0ed98d361895c55 13612322 main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
- a700b3f491cdc9a723679b4072364eb109d5cde8 14655836 main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
- d1ea04687d436d176eace87dbe063feb212110a3 13966812 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
- 0b60bbf1ed479297950fc8621fee3772deee6d3a 608580 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+ e9e52cbe8402ce786985fe66f8f41a79c8577214 13631002 main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
+ 2a3440e44c524e28cac2aabdfd9817cca7993fee 14624594 main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
+ 73756700b99caf6470d3e5b1f3f34ebcdd5d5c01 14009528 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
+ 39d7ca78afc0ba0c969a79065fabbfa7e03402fd 611482 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  c5828eb6cdc9e30a52eaa232c111c8e54948e9a6 2966 main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
  594740802e2a94754f8580897a79bba3ba2de54c 73090 main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
- 4dbb9088b09026f860d4deee4ee0e8e9101eb291 14458358 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
- 639f5439cd3cdf8255b98a21127558f85aac06e8 6548320 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 4e7284e5b4891c6f5bf213a4e115d3d7e9529532 18490848 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+ dd686716ffb16fdf383849aaddcd8dcd759df662 14457330 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
+ 13bd6e50d207e919f01b49bac923a7eb5858034c 6539094 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ fab88324dd08b87a3706bafd5a53046b4a2d4a89 18469140 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy_1.9-1_arm64.deb
  f9e737360dfd2275dc98e7e10455fbf3845ed008 6524 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
- fe01d0dad8761330651f6e45bbcfba5f99b336cb 9321722 main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
- 32a9925faafdc34bcdcb95ada1d9c2e0fea90026 6276508 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
- 8f99edba993e248cefc2bc309543a5f61c13873a 14674476 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
- 5a7d1330d70973e9488e3f8da8e8f2345e31cba1 14509456 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
- f42c460e5481c4b014d46491d09e27e78e367b91 14470486 main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
+ bf062924ddc04b136b8e7a0d685ae40fdfa818de 19179490 main/binary-arm64/libmali-valhall-g610-g24p0-x11-gbm_1.9-1_arm64.deb
+ be95708ee4f90e8719bb1ec70948672031391861 9322308 main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
+ 5d070bd7dc9549b6503d5c091314d3cdf0513c81 6272206 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 96bfcf335b261f38c82a812d1f5c06f3da3383ac 14635428 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 92da945ca84f54ba84cf592e95e41541336ec904 14472280 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
+ 6d06e2acc0a0e9119279e3e9c491054164280a74 14467350 main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
+ b28775969bbc2a5b2bc74a26d8f548797f0fb801 18468138 main/binary-arm64/libmali-bifrost-g52-g24p0-gbm_1.9-1_arm64.deb
  ab35d34882700281d136eb00e03da00ca117153d 10750 main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
- be7e3540fb6ca4c1c0b0b0e1f3b03a20ef323838 14645074 main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
- 356c2f9ee6710f53de4d1d929caf76b649a46c4f 13995298 main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
- 98431d7841b788988f48efc3b45e331cf10f0b80 601826 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
- 4151c022e65197400cbcdfd90a6239a017d83880 14472712 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
- 66dac3cfef202ae2e2b75b3fbfe2190d3a923f8f 6280352 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
- 5491bac9e60051772a87ca0cb5f55c1ca5107973 13988634 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
- 4119ba539d2985d39578e8a3d172070690fd85ef 9303416 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
+ ba623cbb6f19f3d168b615772736a09887e8c8e3 14638044 main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
+ 4664d26e908c364cd938710aadcf80f7c93fc8ec 19166518 main/binary-arm64/libmali-valhall-g610-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+ e10eb522d33b2aa79eca34cb7258d7e187500197 13989848 main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
+ a65a9f967e642de39725424dedefb6a5b6cc63e0 605560 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
+ aaa8b5f7711379ade4bc386e52b54c459630e85f 14483338 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
+ 4880c05d1372a96f01e22623d117e6e8fec8d0df 6272680 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ df4023148ce724dc0088106feaf54957a6b7a1b3 14482736 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-wayland-gbm_1.9-1_arm64.deb
+ e9a14e048f46118978e00761287bb59e7c6370f6 13956244 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
+ fe087496495cd8d4a44d10caf66ceaeb93568d0b 9327380 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
+ ef74c3b0e5163fe25b98e211b445567f76ec8d81 19166854 main/binary-arm64/libmali-valhall-g610-g24p0-dummy_1.9-1_arm64.deb
  cba13b0cb2edbb32e6ef74f0b55b2bb69d00c9d3 127942 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
- 5b1af033b35e16178b1f3f5ed53a64a40b1d5467 13637172 main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
+ 303f1046e40273801d97604fa6401ecd19c777d3 13641162 main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
  abae98baa3ed4c2c7a600d04fa64eb0495df0c43 68712 main/binary-arm64/librga2_2.2.0-1_arm64.deb
- 3d0511444bc92917f0f177a64dffd008fae9a935 14475366 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
+ d065e0e45ce6246eb3da27b1d01c6da7936abb5a 14489556 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
  de30556fc6e0112aa1f33fc7414e307fea029c1a 46050 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
- ec3d06d5405bb81f863b18aae23b225b4dba951f 34853 main/binary-arm64/Packages
- 7af8b8b35491a89e34dc51c34282ab10f166eaa7 14472156 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 60b493b4ffacce785270d0a69f69dfd5dcf6f160 50299 main/binary-arm64/Packages
+ 1e10f58259e5d014bb5d7bffaba2ead1ff813333 14469324 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 100215a437f24e23585973d61a90855df6eee53c 19157474 main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
  58776d841a0b71da5ef73fe7208a5b75f20bd8d0 21234 main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+ a4b7396a4cf2c35a6ad96a7ecbab712cf68f2fcc 18488332 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-wayland-gbm_1.9-1_arm64.deb
  a591542b6d8161a950ff6337c419aabe917e3d10 12808 main/binary-arm64/brcm-patchram_11.0.0_arm64.deb
- 26cd6c180f7abd61c52d4ff56e19a4b9fb7d0b97 13612370 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
+ 2b39a778215fa232036f30ca5033979e4efee9ad 18369598 main/binary-arm64/libmali-bifrost-g31-g24p0-x11-gbm_1.9-1_arm64.deb
+ 41a0c01991e57e40d1b22ee016e9a141607b8b77 14462716 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+ d1924f5e3877f7defa5b387d382132406c8cb207 19159344 main/binary-arm64/libmali-valhall-g610-g24p0-wayland-gbm_1.9-1_arm64.deb
+ d9814ab6fc4fcdf59ae430595599c171e0fb1bac 13637170 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
+ 194d2780be99d7c32deb06e9ac953f7be4ba96a2 18496264 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-gbm_1.9-1_arm64.deb
  24d5c86876d6aad7aa2c8baa429bfcd9b57649a0 18052 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
- aa980a3da9f351869330f3ebae9711dd68f4bd09 12429858 main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
- a29e400e43364a02e7824204e83988f096c7e0ff 13993902 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
- 3d73c3d832572d5321d92288cb26dc718b0277ee 13983920 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
- 6a01defd7b79857fbc2dc0766cbd16fd632307e2 13964394 main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
- ad291bda1543bb37ff3dc27a8299c01ad431a663 14477556 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
- 000638946c477c158594df65230c1b6257df268e 13982770 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
- caf46893fdf493f8863b4a5234e8b355b290e6c8 13961264 main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
- 26d34079640f5d4f0e0e30ae11d57f785b1ffb27 14640012 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
- c2e15daefef61f0575fa5f2ecf2c45610e8722ee 9336080 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
- 496ad501bf64994d8a1d666131a0ba7d7853e978 6554812 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
- b07678364dc55af59f27f3be88f05cdef03cf5fb 14467752 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
- 5890a673f660e5e1acf5b9d1d936b38fbf7336c3 14636812 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
- 9fcd87beb5fd5c375f4df6d035aa306ef7c200c3 858 Release.gpg
+ a826acd1e7c966df8f9720193256ea56ccd85e3c 12442848 main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
+ 3fcfe38613f174d450fb4dace1bf451ea96c00a2 14025060 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
+ 8838e27038ba2b2a5da436890c962cf11c695b11 18361348 main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
+ 487bfe95149e74fcf3b718a65818c4d6bc4b39b0 13951228 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
+ 7d3f07d260d5b230e5ad12cd6ea87cb167ffc686 13954490 main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
+ 67db42da6d96cf40e422ea1f855fee64b33a1144 14453038 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
+ 8fe7d17392b11dcb98689cded43ede4664448e09 13952732 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
+ df5a8a55a4fe179b6fab671ab0c998758ae31cb5 7804664 main/binary-arm64/libmali-bifrost-g31-g24p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 9a17a834196551682099efe3a87388ed4971966b 13948648 main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
+ 2177d61ce76f883ce33f645d0eaabc4037b69ba1 14639476 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+ b1072f211a04b493d7239044633084959c14d437 18482368 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-gbm_1.9-1_arm64.deb
+ 42992513657f380afbcb3f5143665b91e0d67efc 9349308 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
+ 601cedf5614dce1545123a3d282b1b5f00ff9938 6547722 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ 0e4cf7a45c876739e0de2a67a57e1beba46880a7 18487920 main/binary-arm64/libmali-bifrost-g52-g24p0-wayland-gbm_1.9-1_arm64.deb
+ 5700a870dbaa2f181678d57982f8b8053bd4314f 14491656 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
+ f7d7041fad9a86426f47f81c7991d9a2a847d32f 14639672 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
+ c58ba38a34b3ef4a9a3cf6b52b2723118a083e12 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
+ 49932bad019772fc6377aa8a549900264c18cc0a 858 Release.gpg
 SHA256:
- e55ed49b83b27f47739e649c1704f578e0feb01fba7c490c3d19b524fd4eb333 20119 InRelease
- c241a2e5da5c25bd8dbc0210a29eda1ad73eaa1d5d8ac99115ba6b80e3ac71e2 13626942 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
- 888805b994ba0bf28591e64bb44ae29a7246d46040dbe97373086af53ee12df3 6595 main/binary-arm64/Packages.gz
- 4b3259abf32c0c0612a1695271dacb9f16fb06705af4b32b2e82e01b3f36cc2a 14468754 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
- 704e49ab13474c3c0a90e02748d8f0a151224ce0af020df61fcadd90bb7ecd04 13651896 main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
+ fa311c545bfeb5f4f6c6ec52648b288222c0b5e23e4115275c89ed99b8240742 20119 InRelease
+ a36b40624726d4b5e12b5d70d43ceb7ea174061993c92572c7be0face1b67c95 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 56e87ba4c5b6e5b0b9e9d000ab2a5b856d0373598c93f169f15dc8e75a1875cd 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ edb7918f7505674e8af219d8b54707d90b332fe1f4181e4c036546b1532c6047 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
+ 8b70a07ac30702c19786ba7919820ee7f1f4e001ed31418e1762af288c181b3e 8895 main/binary-arm64/Packages.gz
+ 3af696bd788baa62fd7a53a56e4e102b63e8795fd043e93f3b66d8adcd440fa8 14508996 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
+ 4af10c5627bc087e33e80a1d7e051ddb87d72b05838d2c2a2ec0bf052dd463f5 13637238 main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
  2e8b44fe8c49bdc124037f48c0505ad8963fd881c56d8133a07285abfb2a4936 2070 main/binary-arm64/libdrm-mirror-dev_1.0.0-1_arm64.deb
  075a188880a847ef892bc7eb2df77348267d5fccae2e819727c63dd543c63d9e 31546 main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
  5e12d393a0716156e74ea7d9e6a6880766b3d23ece195098415a01b8051f197b 888058 main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
- 7f328e273c559825e87ba77dc98479b00f9fed02465d2535815a11995311d478 13612322 main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
- d1ee8fdffa6c1e3ae898813c486e8e6b79313b3a41d898d9e9b054303e28565f 14655836 main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
- 7e8ce6814cfc1768021027c3d1e7484031e9cbd489da3bd1444f1f72cc27fe2f 13966812 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
- 4a4d706e1811981f1dbc406e3a028f50089ce77a0ec92b904ee0c9d08434e1f4 608580 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
+ ad6151a36f72e5868a5800884e055f8eb4def7e377562785d35ddbc98c270b4a 13631002 main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
+ 5299da76606bac7ef5ead084a5b369421ed093ef6750d054e8a78fd0e159e34e 14624594 main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
+ 2e79c8987884b7bcb8f9ba565fdd0e4c5eb24c6f76dd16eb0c9ca0a416f32c46 14009528 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
+ 27be9e7946c830eb5670389bb68e6000a2b4b0f4d7471040aa827d6fd34619cc 611482 main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
  b682b4eb18c27b73939f0ab64da01e1ee875dded807b85b523329e849214d196 2966 main/binary-arm64/libdrm-cursor-dev_1.4.1-1_arm64.deb
  ab469f806ac607b7be7acee51626f32bf7f70dbf6313eb1630b80d5e1c7e79db 73090 main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
- 49f020f2ef7d5eb7f1d49efd30707fdc8d5eed1cf757efb9ded4e9287242c860 14458358 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
- b5bdc742420cdf3a012e0eaedd6f43008b0f9cfc3eb85a90dcf3315389417c5b 6548320 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ eafb9ad2ea789251f9d3f6d89239d6f50bd5398d7b68007d5213e97926c29591 18490848 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 2a493b1dd92280a56d8acecd71a86dda661879595c6658f1e52782ad12b62cb3 14457330 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
+ db42cd125588fd4112f941653b581f312f692c1676c8bc70ccfedd802122aaa9 6539094 main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 151af4be256824bc780c7b79da55a7e468ce6232a3d8fa5e2eda7352e318d1dd 18469140 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy_1.9-1_arm64.deb
  e7dc9cd4d64d4d1b81b2065fca99981965ccf542e3c48a5cca2c6ee7edbac3aa 6524 main/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_1.9-1_arm64.deb
- 21d17e2249aa23dc90dfaa8c3ce621f407d689ea0c887de33452452d16be7078 9321722 main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
- 636aa37cb98b5cdfdda19011fd5466d6cf4429ba1a9a55d8b2c476dc91390577 6276508 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
- 49c0c12d8edd9928b743235e6c2186160bf5973327d642db3f55a68a2b9b90b9 14674476 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
- 49028275ac8d7382ca1d44249b0955f8c092bbb37914ca6208669639018fcb66 14509456 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
- 9edcb36694caf396ab44cd4701ea986cef6e4c7c3c61eca4c7c24d85293f4de6 14470486 main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
+ d3c79509ba2e59a0ac6f591244f3c318d13f6588e02f960be86602ef20badbda 19179490 main/binary-arm64/libmali-valhall-g610-g24p0-x11-gbm_1.9-1_arm64.deb
+ 02073d00186b1866207d55213418670ad62a8e967915d71d62070654ad5e515c 9322308 main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
+ 97658e1e7aa16b92b788cca701a553c394efef10569ba83746ea81063c297347 6272206 main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ ce2e3b23439f2aa283078d3669c65065711e983988087a83429c53d55e11b2f0 14635428 main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 9bda328d87d57e8edd391d26e6a8bef8d7ebf2d72af68d46dd429d6da410afa0 14472280 main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
+ 29b38b0dcd0516d3438308507fb42792ff29b6ff95a2ee9bbf8666be2d45cf2d 14467350 main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
+ cc9296d0a585c0ecedee38ac9dcc23749ce8fd510413139fe7644dcfcc3cf132 18468138 main/binary-arm64/libmali-bifrost-g52-g24p0-gbm_1.9-1_arm64.deb
  1809f9a061442528aed17681681166c8485c19dc5f6133d3a8edbfbef7561007 10750 main/binary-arm64/libdrm-mirror_1.0.0-1_arm64.deb
- 435a2a95c58511f743928336d0c0d35b154dd1e2837211e03abe8d372e391193 14645074 main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
- 848924664e809c4e5c0fba4b51fa7a5f0a27513766cf65255d8ba1bf1a5c5d09 13995298 main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
- a3a37025352a9de95a1b9afaad7a98156946e37d423eeda0cd67afc859ace891 601826 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
- 6a3ceecfdff3f7bbfa7f2936e8c3368832bfee175735fc42112725df7a64832a 14472712 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
- 51a0f5152cc3803de0c5127dc5414439750e50dd86bb6428a7663906f8932c11 6280352 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
- fba7db4c33982fd37396bbb96286d4327bcef1b9fd273d1a64c2151f047c992d 13988634 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
- 6c77942f051bd438bdf9d0a64a88ef609094eecf9c40a7aa159d80eb63a99c34 9303416 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
+ 8d9a8d0841c968986dd92c741b1c0249666e0484016ff29e613836bb407eaaeb 14638044 main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
+ cac7a55615f5494a99672892635c90d3b0b2de8a6ce9164f202cad2bd4e5993f 19166518 main/binary-arm64/libmali-valhall-g610-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+ 4730115b7ba045f1cf68cdf79b1c9d09b6e13d62a3638541eb84dc1291db6030 13989848 main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
+ ee7693f845067eccd0a9f176dcd5560874bca31cd32bf2e0f9da158e1b69bde4 605560 main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
+ cb3ae0746566e4a5edd2dd686434115470a8a55fd7f8715a6fb8bf91087972ab 14483338 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
+ 4df673a369b2f4a89217359820cf2d55d467f38197dd666b00158af2defb5fba 6272680 main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 02eba976c3581090ca606d075026942a0aec8489238459d22aff9cf3bd3b7372 14482736 main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-wayland-gbm_1.9-1_arm64.deb
+ b13bd562b8998aa9249d8117739f4dd01e310666a8ce52871a53c11b7c89b543 13956244 main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
+ 54b8451209769ade0589b9824a4fdf0e9cd4d8437a959c271c8e1cc03a529290 9327380 main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
+ 580e3c055201f8f5403ccfba831714d7f5a88c860cad4d07d7edfa6bde605be8 19166854 main/binary-arm64/libmali-valhall-g610-g24p0-dummy_1.9-1_arm64.deb
  f2c57bd1a5b7315f4b9f6e38e289431eaf8c92a779730692920229cdcbd74c5a 127942 main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
- 6caee33be346ba32b12c3a2e414f16e89204929ee7b20289103ac1de8a68946c 13637172 main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
+ d68aacbd581029424d29baad4432ef86e1435cef084784e1d627b681ab3ac00a 13641162 main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
  b7a69b18224ae341f3254638dad430473ea2afc1ec3537d0147ca507529be263 68712 main/binary-arm64/librga2_2.2.0-1_arm64.deb
- f8a315f14e7a240cbbe5cc8718d942af735be4bb8b6892af8280ac6dd1cf9a2f 14475366 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
+ c5d818d15118a632fd7a84c254f41ea64ede116fae716f8057bea4c2bee92b0f 14489556 main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
  464657acc9a2cab958216b65ab68615019b994e63a3491570d5208ce27415385 46050 main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
- 168b5c1ee211f8ed49a572a6062f3f2fddfad2cdc31a0f506c4147d0491ec05d 34853 main/binary-arm64/Packages
- 1d407a11c6353d10b994c59eb37a5ec09002a33b8dea81901d72fa212ee4de4f 14472156 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 70187cdfe4349c80888bd1465b91dd187ffe59379ba3e03741ae84b040d278ec 50299 main/binary-arm64/Packages
+ 5502dcb443f78057c18be7863531853a2b64e47aa6cb62370c612f9128a0f7f0 14469324 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
+ 2a33e665702a2f2dbccf3e2d05c719329b88d28915c666edee39446c0693d5f7 19157474 main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
  fc4941e6481590c44b2e3ae0981b20d920aeb25afcebd6769559c0dfa309ffd3 21234 main/binary-arm64/libdrm-cursor_1.4.1-1_arm64.deb
+ 671c1ab6cab6d89b967faf467bd17c65e14f865f7f0cb2d080e270cd9f9c7dd6 18488332 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-wayland-gbm_1.9-1_arm64.deb
  16c58cea4540ec6d94e9b2ba9d14e56897fa623d18fd78bc7f8c4b65a1d78d07 12808 main/binary-arm64/brcm-patchram_11.0.0_arm64.deb
- 3422f6ddcde5710cc14f2d580ca81e905e2c0ac18ca24bbc1a2f1850b7cf67dd 13612370 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
+ 6d85dd3504e1c7945d53f176daa03503ba46917da3ab505c428f5e3a5ad1e7d8 18369598 main/binary-arm64/libmali-bifrost-g31-g24p0-x11-gbm_1.9-1_arm64.deb
+ 1d5672518911fbd4a1a3278685bdf516f0e10b2e2a97a0b56dd100c40cbdce01 14462716 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+ fee2cfb3fa487b5d2107e0849d4a4d64b944fbf67980b69a3c97d428c2a22c18 19159344 main/binary-arm64/libmali-valhall-g610-g24p0-wayland-gbm_1.9-1_arm64.deb
+ 239ba6e3b1ab6fc0dd41e3160ec347bce85d2673dbd9686bf9cfc024386f96f3 13637170 main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
+ e7e8426b56ac65c3a1605c218786984feddf3ecd894e66f8214e73c2ca723a33 18496264 main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-gbm_1.9-1_arm64.deb
  1b5d8484e7490becf36bb04557258207629088c2b32315b742717d7a13fa5978 18052 main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
- 873ee9b486e0df62abd142d2e23fe93a93d8766181e8d0aa1a01e1d5578f5029 12429858 main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
- 9fd523e6d6e962f2e4b3103837025a0b1e0461e034cf8963e9aabb65e0e01678 13993902 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
- b0dd0af0b89946e22f9990bfbfd9f008ad9ba58d6f4a21a9d5d32f976f9d01a2 13983920 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
- 0046acf0fe8f022848a37a9aebfd21f56101d58f46636446780610410a56f6ff 13964394 main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
- e76c508c07cf29038ee160e8f4875af32d37c018098ebb3c5147a3b1caea35eb 14477556 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
- 6e55b0aa2a6a03b6b7e059d5b237f00a7b009ef13296955771608ed5c19a55ad 13982770 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
- eb50fc13bf3ddc99beb17ed99243b805a496f037893711367dd6bedab324f63f 13961264 main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
- ce73c8b762f517606d1d1d5494e836a79765238e7a592377e0ea30a802292435 14640012 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
- 21ab192d0b8b739b7857e192661b2cc727a0511308fdcb0841224cfd2ef3481c 9336080 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
- 44a66314be676a9088a9b4cc1ebe2ef0547d3e561f5dc315d51b035ac25fee6c 6554812 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
- d460bfa04d112ac8ef5cff0180bda309992c5c6c39bdcd971f343200ea77dc3e 14467752 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
- 59628bc678b82189a46b759fe9756190b0f0f92cd985f6b4902415fcc8ceaade 14636812 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
- 637af42df178742ff8844474f7dc3a66959c73c1d841de70aa2dd73c261773ed 858 Release.gpg
+ 67062b2b9362d0d27736597f48089c7eaeda83412178e81c20b5b2a062966755 12442848 main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
+ 3700f9a6cfa082ec347298522e37e8dce37e56a069b5accce49bb7c4225425c1 14025060 main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
+ b14bf5e952e7d9bc7203aa0a92d19a2726f3ba0a1d6df8551304a24b0f54d59e 18361348 main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
+ c816c3a422c9fed817e6b490ae6975a5a787fb3d99c252b901c02a3cea2af814 13951228 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
+ 7ed531eb0a7da858455e5c9332eb7a263f152df3244ab3e1aa88939fc1da9b5b 13954490 main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
+ c2abd566362b20118ba734d32031b13cacb9eb098ed68eabfc3b70fd10219ac0 14453038 main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
+ fd9712b36032856c9db00836d932b01b9c8346dc5d0134d327ac9c25854227d5 13952732 main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
+ 33ced2511ec83f40c1344e7819ae3ff07f1b686063387eb001e54601ada32ba1 7804664 main/binary-arm64/libmali-bifrost-g31-g24p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+ 72f9097546e48750410e262a1c2dd93a3fe7eebe6b48f7296886f137d443049d 13948648 main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
+ c71fee74e9f49d0c6a824bbef2867ee8e5ce8853a8a68fcab7d79734bc7a06d1 14639476 main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+ d530ca3bad39fe4a5c83cb85e5e79617456cec9f8886e1255f261daac835ce79 18482368 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-gbm_1.9-1_arm64.deb
+ 990bb240f108ff27d36c41e100d8365ac7e9eae935a5bf35e5e81620fd308105 9349308 main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
+ 3925a98fe0b05df99e7d110bfd489d29620bc7655f22d7bf487029dcfc946a9f 6547722 main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+ bfccd782d2a114e2038665adde1702fb7b038d97d026b6b83ab3dbc895375066 18487920 main/binary-arm64/libmali-bifrost-g52-g24p0-wayland-gbm_1.9-1_arm64.deb
+ 6bdf74749bb07504e09ace055bfb7e41145b0b751c390c6157b85e05a5b3146b 14491656 main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
+ ac876c3457d807e8f42b03a23be4066a28aca41c5277471f6a87cb860c1f9ec0 14639672 main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
+ 84f98dfbcc0f867f0d5d7b39c19d5d025a961ca5e1b3b6ec3dc222b95fb063a1 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
+ a6fe4ea256a0aafc1726fe08dfab7b616b05197ed022f330a6bd945792938c2d 858 Release.gpg
 -----BEGIN PGP SIGNATURE-----
 
-iQJGBAEBCAAwFiEEFXotnXXSul+1ztoAYtNGJTeZz8YFAmZ2cnMSHHN2bGFzaWNA
-Z21haWwuY29tAAoJEGLTRiU3mc/GzwkQAIwybkaq5atWu90GUf2f5RuBFVPDL1ur
-hue5QA8+28CyxtGRpv7aVE5Jvo5yqQZPomDRbUeSppIIjvP1EsVB55H2qI+1MdNc
-Znbv5RVID5tdwPbwNcIsiqbnTQZ3BKhe70qwCZbK0N3BasEVNwoi6+VYS16Wl0+C
-XfoDuNtxi9RW0mpqlkMs4u3plwrlZ+loptfG7ge7OB2KXHaB8d65nOdNKCPmpHJ1
-99Vo+v6acZOKUfXSxSyjR1gcxMmF2pttJdr7Fnn4nPHMMdMS0vmE2raDqzB7aSfv
-EGk28WA7vTQ/Z90wEMGUaRbMNIzwrZcTavIofeFbM2pP6iNY+rYtHBcXlNX8DgE8
-ppKu0lg5uX47A7hjlM0Fxn9/buPJOidNE/ibtzdCNCZTjD0x0ELuOCyMyEIFgEWs
-iUVEDaOfegsfAtHpQP7IYLC+hLLshLYpBikRni2KzqeeQE2vfTiMmwPMVgFjrq2L
-DZJZR34idLJUm6aKwjXCq9duMcu9VO342rqMRbVlTccZuJo5iz3nBOf9tIsywc3b
-TiKi9kDHWihWxh6C46uYqe4WSIYKDJ6NUa0vq4E0HluKb4qM6DOKcYeS6Nd/oUgL
-i2e+5rbaiV9XLBD5GICP68b+lU+JD0PYApeL5zmC5afgdxJJPw37Q/Y0JZR1+1zd
-8/zkh7Xb05Gu
-=JFAR
+iQJGBAEBCAAwFiEEFXotnXXSul+1ztoAYtNGJTeZz8YFAmdCDSkSHHN2bGFzaWNA
+Z21haWwuY29tAAoJEGLTRiU3mc/GavAP/0uFP1EmHrkCtCSwpZecDrWGm9xjMnfJ
+duw9zEBEWvWL5iGzuWq8p6DVCjwPltUXS6Ikp0HaQBFj1SIByqC73wxkbJo4i78q
+l6r1N6aKU9yJMkTGDQt6fGjoV+HHuyunLmAamI+vS828PuoYErTVsVd4pYG9Itc/
+09NhAtE+J8GI1MsLdGHZ/RYgV13cVQBHHPN4yc7h1wuwuh/fT7FvjUdgfoQC2PsX
+0GLw/P4WgkMEyt8cnjfDCc9MuYXxvL22Rmg6yNziz8hFBEBNauYamzhli4OKmtfE
+K9U1mxAF0jAAJT7dN30JSy6CFLQ4Nsf9MwRZfNc50NUTemdrHaQz4UikjzUDlR67
+nyRHdanvx71/zRACduMpIZasxrG0zHs0CMOGgs4Se5sYrU4W8zVXUL7kHFYjaSdL
+mL13U0a2Ag0RpiCeP6zcA+Q74dpGfXpIpln+YQY6UQZPXzLSCulDjfdkPEDMdW0H
+JQ8W9Feo9Uvf9Vq1dHLdZtT+KSE08xPt+JyzSwHegxPdY9c2PJVsdvNrriRc5iUq
+mWjaAJh/miQALP7DeIeXk04dMiRTsw7zwpi+VaUZpWD+M0k4y8BAYpaqZd2rFxM3
+Fnjs2wEhRISv7i3odfaS1gSQspzAlBHE9KXknZO8jhgdP+R6E7AWgJo1wdpq6GWz
+hSNcvbyKKUdu
+=TZS6
 -----END PGP SIGNATURE-----

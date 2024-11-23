@@ -95,16 +95,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42745
+Installed-Size: 42797
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
-Size: 14458358
-MD5sum: 238cc484d5f709a94fa6a869ec2b0de8
-SHA1: 4dbb9088b09026f860d4deee4ee0e8e9101eb291
-SHA256: 49f020f2ef7d5eb7f1d49efd30707fdc8d5eed1cf757efb9ded4e9287242c860
+Size: 14457330
+MD5sum: 76096e4c36c5280824794a29f07a3dcd
+SHA1: dd686716ffb16fdf383849aaddcd8dcd759df662
+SHA256: 2a493b1dd92280a56d8acecd71a86dda661879595c6658f1e52782ad12b62cb3
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -115,16 +115,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42693
+Installed-Size: 42701
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g13p0-only-cl_1.9-1_arm64.deb
-Size: 14467752
-MD5sum: 1d8f1ca9626a8f0adc9a6d5043c8c53f
-SHA1: b07678364dc55af59f27f3be88f05cdef03cf5fb
-SHA256: d460bfa04d112ac8ef5cff0180bda309992c5c6c39bdcd971f343200ea77dc3e
+Size: 14491656
+MD5sum: c4ded0ef762e3ca559fa0b207892df88
+SHA1: 5700a870dbaa2f181678d57982f8b8053bd4314f
+SHA256: 6bdf74749bb07504e09ace055bfb7e41145b0b751c390c6157b85e05a5b3146b
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -135,16 +135,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42836
+Installed-Size: 42889
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 14475366
-MD5sum: acdde0cb21b4bf21ff8264aad7a58e0a
-SHA1: 3d0511444bc92917f0f177a64dffd008fae9a935
-SHA256: f8a315f14e7a240cbbe5cc8718d942af735be4bb8b6892af8280ac6dd1cf9a2f
+Size: 14489556
+MD5sum: b83ed4e553232fb490f52b4de9031397
+SHA1: d065e0e45ce6246eb3da27b1d01c6da7936abb5a
+SHA256: c5d818d15118a632fd7a84c254f41ea64ede116fae716f8057bea4c2bee92b0f
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -155,16 +155,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18910
+Installed-Size: 18944
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g13p0-without-cl-wayland-gbm_1.9-1_arm64.deb
-Size: 6548320
-MD5sum: 2f5944956482744f13380a88a5bfb775
-SHA1: 639f5439cd3cdf8255b98a21127558f85aac06e8
-SHA256: b5bdc742420cdf3a012e0eaedd6f43008b0f9cfc3eb85a90dcf3315389417c5b
+Size: 6539094
+MD5sum: ef7f7a1de5b2cbe6ef3f2d428bedb2bc
+SHA1: 13bd6e50d207e919f01b49bac923a7eb5858034c
+SHA256: db42cd125588fd4112f941653b581f312f692c1676c8bc70ccfedd802122aaa9
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -175,16 +175,116 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42765
+Installed-Size: 42818
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 14509456
-MD5sum: 1d05bf41abd0fc1cf5c03bb13ecaacee
-SHA1: 5a7d1330d70973e9488e3f8da8e8f2345e31cba1
-SHA256: 49028275ac8d7382ca1d44249b0955f8c092bbb37914ca6208669639018fcb66
+Size: 14472280
+MD5sum: 8c5c463481fabdf95000153819f99bbb
+SHA1: 92da945ca84f54ba84cf592e95e41541336ec904
+SHA256: 9bda328d87d57e8edd391d26e6a8bef8d7ebf2d72af68d46dd429d6da410afa0
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55365
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
+Size: 18361348
+MD5sum: 55274d96881b121428b369fa60d541b4
+SHA1: 8838e27038ba2b2a5da436890c962cf11c695b11
+SHA256: b14bf5e952e7d9bc7203aa0a92d19a2726f3ba0a1d6df8551304a24b0f54d59e
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-only-cl
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55321
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
+Size: 18363248
+MD5sum: 7f13fee59518f7a874aa4ef08f33422a
+SHA1: c58ba38a34b3ef4a9a3cf6b52b2723118a083e12
+SHA256: 84f98dfbcc0f867f0d5d7b39c19d5d025a961ca5e1b3b6ec3dc222b95fb063a1
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55445
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
+Size: 18370306
+MD5sum: 447825f561a593acb71b4fc2759b1e94
+SHA1: d2e67721db06fd70e8d1f07758eb0bf69cb92bca
+SHA256: edb7918f7505674e8af219d8b54707d90b332fe1f4181e4c036546b1532c6047
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-without-cl-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 22705
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g24p0-without-cl-wayland-gbm_1.9-1_arm64.deb
+Size: 7804664
+MD5sum: a4a3e50d76ed4fe8f984d78ac3df9f59
+SHA1: df5a8a55a4fe179b6fab671ab0c998758ae31cb5
+SHA256: 33ced2511ec83f40c1344e7819ae3ff07f1b686063387eb001e54601ada32ba1
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g31-g24p0-x11-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55390
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g24p0-x11-gbm_1.9-1_arm64.deb
+Size: 18369598
+MD5sum: 601037349127e549e2f609686be27612
+SHA1: 2b39a778215fa232036f30ca5033979e4efee9ad
+SHA256: 6d85dd3504e1c7945d53f176daa03503ba46917da3ab505c428f5e3a5ad1e7d8
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -195,16 +295,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44867
+Installed-Size: 44953
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
-Size: 13983920
-MD5sum: 207b772102a10d42350d692df0aa334f
-SHA1: 3d73c3d832572d5321d92288cb26dc718b0277ee
-SHA256: b0dd0af0b89946e22f9990bfbfd9f008ad9ba58d6f4a21a9d5d32f976f9d01a2
+Size: 13951228
+MD5sum: a994e33e62d975dce4cc5446d2834cca
+SHA1: 487bfe95149e74fcf3b718a65818c4d6bc4b39b0
+SHA256: c816c3a422c9fed817e6b490ae6975a5a787fb3d99c252b901c02a3cea2af814
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -215,16 +315,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 39366
+Installed-Size: 39440
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g2p0-only-cl_1.9-1_arm64.deb
-Size: 12429858
-MD5sum: dab708f37dbd9f92a190fabb19e6063a
-SHA1: aa980a3da9f351869330f3ebae9711dd68f4bd09
-SHA256: 873ee9b486e0df62abd142d2e23fe93a93d8766181e8d0aa1a01e1d5578f5029
+Size: 12442848
+MD5sum: 3ee5b3a7ba90a8d65af340d3cbae4de9
+SHA1: a826acd1e7c966df8f9720193256ea56ccd85e3c
+SHA256: 67062b2b9362d0d27736597f48089c7eaeda83412178e81c20b5b2a062966755
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -235,16 +335,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44947
+Installed-Size: 45028
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g2p0-wayland-gbm_1.9-1_arm64.deb
-Size: 13993902
-MD5sum: e8219e075604a692fd1009cb8c59650f
-SHA1: a29e400e43364a02e7824204e83988f096c7e0ff
-SHA256: 9fd523e6d6e962f2e4b3103837025a0b1e0461e034cf8963e9aabb65e0e01678
+Size: 14025060
+MD5sum: 8e3af0555ae9e19cf6cab9337f735f96
+SHA1: 3fcfe38613f174d450fb4dace1bf451ea96c00a2
+SHA256: 3700f9a6cfa082ec347298522e37e8dce37e56a069b5accce49bb7c4225425c1
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -255,16 +355,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18668
+Installed-Size: 18765
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g2p0-without-cl-wayland-gbm_1.9-1_arm64.deb
-Size: 6280352
-MD5sum: 24ab12a1cefbcdda81e3d888da7904d0
-SHA1: 66dac3cfef202ae2e2b75b3fbfe2190d3a923f8f
-SHA256: 51a0f5152cc3803de0c5127dc5414439750e50dd86bb6428a7663906f8932c11
+Size: 6272680
+MD5sum: 6ccc2e0608d6a28bc3c12ab5053813c0
+SHA1: 4880c05d1372a96f01e22623d117e6e8fec8d0df
+SHA256: 4df673a369b2f4a89217359820cf2d55d467f38197dd666b00158af2defb5fba
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -275,16 +375,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44851
+Installed-Size: 44933
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g31-g2p0-x11-gbm_1.9-1_arm64.deb
-Size: 13961264
-MD5sum: f58fbefcf6c72844a7a85f259f0a4b07
-SHA1: caf46893fdf493f8863b4a5234e8b355b290e6c8
-SHA256: eb50fc13bf3ddc99beb17ed99243b805a496f037893711367dd6bedab324f63f
+Size: 13948648
+MD5sum: 93ae531c858ce6d48bf76fbaf8ec0247
+SHA1: 9a17a834196551682099efe3a87388ed4971966b
+SHA256: 72f9097546e48750410e262a1c2dd93a3fe7eebe6b48f7296886f137d443049d
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -295,16 +395,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42705
+Installed-Size: 42709
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-dummy_1.9-1_arm64.deb
-Size: 14468754
-MD5sum: d095e8b477f758170ea67557c3be842f
-SHA1: 4c02312c8a59574173a1edf7fd9492f482b3d23d
-SHA256: 4b3259abf32c0c0612a1695271dacb9f16fb06705af4b32b2e82e01b3f36cc2a
+Size: 14508996
+MD5sum: a126a45e547bb2afd1ee2d25b86e6418
+SHA1: 9b38d9d39a58c5bfba7a951f6db715285db76678
+SHA256: 3af696bd788baa62fd7a53a56e4e102b63e8795fd043e93f3b66d8adcd440fa8
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -315,16 +415,36 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42797
+Installed-Size: 42845
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-gbm_1.9-1_arm64.deb
-Size: 14472712
-MD5sum: 0406028675c5d53695efa155a2a17d1f
-SHA1: 4151c022e65197400cbcdfd90a6239a017d83880
-SHA256: 6a3ceecfdff3f7bbfa7f2936e8c3368832bfee175735fc42112725df7a64832a
+Size: 14483338
+MD5sum: 3fecd0a009f6fa7355c5ba0c559b7fc9
+SHA1: aaa8b5f7711379ade4bc386e52b54c459630e85f
+SHA256: cb3ae0746566e4a5edd2dd686434115470a8a55fd7f8715a6fb8bf91087972ab
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g13p0-dummy-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42941
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-dummy-wayland-gbm_1.9-1_arm64.deb
+Size: 14482736
+MD5sum: 701e4134b77b68097915966c8c3ecde9
+SHA1: df4023148ce724dc0088106feaf54957a6b7a1b3
+SHA256: 02eba976c3581090ca606d075026942a0aec8489238459d22aff9cf3bd3b7372
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -335,16 +455,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42741
+Installed-Size: 42793
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-gbm_1.9-1_arm64.deb
-Size: 14470486
-MD5sum: 9cbefaec8278952ea179372046ecec29
-SHA1: f42c460e5481c4b014d46491d09e27e78e367b91
-SHA256: 9edcb36694caf396ab44cd4701ea986cef6e4c7c3c61eca4c7c24d85293f4de6
+Size: 14467350
+MD5sum: 5871c3f696db911d3422ff2022c2e485
+SHA1: 6d06e2acc0a0e9119279e3e9c491054164280a74
+SHA256: 29b38b0dcd0516d3438308507fb42792ff29b6ff95a2ee9bbf8666be2d45cf2d
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -355,16 +475,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42828
+Installed-Size: 42881
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 14472156
-MD5sum: 69718bcb5a9ffce3ceed3c4eca6ca9ab
-SHA1: 7af8b8b35491a89e34dc51c34282ab10f166eaa7
-SHA256: 1d407a11c6353d10b994c59eb37a5ec09002a33b8dea81901d72fa212ee4de4f
+Size: 14469324
+MD5sum: a203d031cb7806ba6853c9a6ebbbe30d
+SHA1: 1e10f58259e5d014bb5d7bffaba2ead1ff813333
+SHA256: 5502dcb443f78057c18be7863531853a2b64e47aa6cb62370c612f9128a0f7f0
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -375,16 +495,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18891
+Installed-Size: 18928
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 5.2)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-without-cl-dummy-gbm_1.9-1_arm64.deb
-Size: 6554812
-MD5sum: b73381b63216d1024b1e2de7cff684b2
-SHA1: 496ad501bf64994d8a1d666131a0ba7d7853e978
-SHA256: 44a66314be676a9088a9b4cc1ebe2ef0547d3e561f5dc315d51b035ac25fee6c
+Size: 6547722
+MD5sum: d0c5eb1c878858b8604e7c1d30bd15af
+SHA1: 601cedf5614dce1545123a3d282b1b5f00ff9938
+SHA256: 3925a98fe0b05df99e7d110bfd489d29620bc7655f22d7bf487029dcfc946a9f
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -395,16 +515,196 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42769
+Installed-Size: 42822
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 14477556
-MD5sum: f679ea15dc4a4cd1bb0ed0e921674d5d
-SHA1: ad291bda1543bb37ff3dc27a8299c01ad431a663
-SHA256: e76c508c07cf29038ee160e8f4875af32d37c018098ebb3c5147a3b1caea35eb
+Size: 14453038
+MD5sum: 93042f6f8669b03dfd17de873f7c4877
+SHA1: 67db42da6d96cf40e422ea1f855fee64b33a1144
+SHA256: c2abd566362b20118ba734d32031b13cacb9eb098ed68eabfc3b70fd10219ac0
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g13p0-x11-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 42914
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
+Size: 14462716
+MD5sum: 80a4032727f6370927b1c24a71711d94
+SHA1: 41a0c01991e57e40d1b22ee016e9a141607b8b77
+SHA256: 1d5672518911fbd4a1a3278685bdf516f0e10b2e2a97a0b56dd100c40cbdce01
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-dummy
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55369
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-dummy_1.9-1_arm64.deb
+Size: 18469140
+MD5sum: cd12d4c2ed6d87fe8c4ed9e5b4b94eac
+SHA1: fab88324dd08b87a3706bafd5a53046b4a2d4a89
+SHA256: 151af4be256824bc780c7b79da55a7e468ce6232a3d8fa5e2eda7352e318d1dd
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-dummy-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55461
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-gbm_1.9-1_arm64.deb
+Size: 18496264
+MD5sum: 150ef0106bba64dc978028d534f4e15d
+SHA1: 194d2780be99d7c32deb06e9ac953f7be4ba96a2
+SHA256: e7e8426b56ac65c3a1605c218786984feddf3ecd894e66f8214e73c2ca723a33
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-dummy-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55569
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-dummy-wayland-gbm_1.9-1_arm64.deb
+Size: 18488332
+MD5sum: b7a7168296e8e7ecdc82bdab0574fc50
+SHA1: a4b7396a4cf2c35a6ad96a7ecbab712cf68f2fcc
+SHA256: 671c1ab6cab6d89b967faf467bd17c65e14f865f7f0cb2d080e270cd9f9c7dd6
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55385
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-gbm_1.9-1_arm64.deb
+Size: 18468138
+MD5sum: 3cc2fc7fe7aeebca1095eae51b367b78
+SHA1: b28775969bbc2a5b2bc74a26d8f548797f0fb801
+SHA256: cc9296d0a585c0ecedee38ac9dcc23749ce8fd510413139fe7644dcfcc3cf132
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55493
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-wayland-gbm_1.9-1_arm64.deb
+Size: 18487920
+MD5sum: 39b629097679aad1292a2bbc61f06f8c
+SHA1: 0e4cf7a45c876739e0de2a67a57e1beba46880a7
+SHA256: bfccd782d2a114e2038665adde1702fb7b038d97d026b6b83ab3dbc895375066
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-without-cl-dummy-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 22701
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
+Size: 7856006
+MD5sum: 3394b811348b39b96035f73a78f37eda
+SHA1: 9d01893f771fff75e9e37db86306cbb4c867bc7b
+SHA256: 56e87ba4c5b6e5b0b9e9d000ab2a5b856d0373598c93f169f15dc8e75a1875cd
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-x11-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55435
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-x11-gbm_1.9-1_arm64.deb
+Size: 18482368
+MD5sum: a52fa27350362997e1ee8fe0ae70b7a6
+SHA1: b1072f211a04b493d7239044633084959c14d437
+SHA256: d530ca3bad39fe4a5c83cb85e5e79617456cec9f8886e1255f261daac835ce79
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-bifrost-g52-g24p0-x11-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 55547
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.60), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-present0, libxcb-xfixes0, libxcb1 (>= 1.9.2)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+Size: 18490848
+MD5sum: fdeaf530c7f5d657ecab97dd723a2058
+SHA1: 4e7284e5b4891c6f5bf213a4e115d3d7e9529532
+SHA256: eafb9ad2ea789251f9d3f6d89239d6f50bd5398d7b68007d5213e97926c29591
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -415,16 +715,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44807
+Installed-Size: 44898
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g2p0-dummy_1.9-1_arm64.deb
-Size: 13982770
-MD5sum: b2f63dd02ec0af208eed450c6f27c844
-SHA1: 000638946c477c158594df65230c1b6257df268e
-SHA256: 6e55b0aa2a6a03b6b7e059d5b237f00a7b009ef13296955771608ed5c19a55ad
+Size: 13952732
+MD5sum: bac0964389e23515186cd50a88510e48
+SHA1: 8fe7d17392b11dcb98689cded43ede4664448e09
+SHA256: fd9712b36032856c9db00836d932b01b9c8346dc5d0134d327ac9c25854227d5
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -435,16 +735,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44879
+Installed-Size: 44965
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g2p0-dummy-gbm_1.9-1_arm64.deb
-Size: 13966812
-MD5sum: b41440899985dc017b21888cbd935fe8
-SHA1: d1ea04687d436d176eace87dbe063feb212110a3
-SHA256: 7e8ce6814cfc1768021027c3d1e7484031e9cbd489da3bd1444f1f72cc27fe2f
+Size: 14009528
+MD5sum: 68ae010ae3fbf8f9faa9bfe34105d4f3
+SHA1: 73756700b99caf6470d3e5b1f3f34ebcdd5d5c01
+SHA256: 2e79c8987884b7bcb8f9ba565fdd0e4c5eb24c6f76dd16eb0c9ca0a416f32c46
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -455,16 +755,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44839
+Installed-Size: 44921
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g2p0-gbm_1.9-1_arm64.deb
-Size: 13988634
-MD5sum: 4714559b5d1afa6536a6f6b91ab7b4dd
-SHA1: 5491bac9e60051772a87ca0cb5f55c1ca5107973
-SHA256: fba7db4c33982fd37396bbb96286d4327bcef1b9fd273d1a64c2151f047c992d
+Size: 13956244
+MD5sum: d9343ca3a97f549fcd8018866f432e64
+SHA1: e9a14e048f46118978e00761287bb59e7c6370f6
+SHA256: b13bd562b8998aa9249d8117739f4dd01e310666a8ce52871a53c11b7c89b543
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -475,16 +775,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44928
+Installed-Size: 44990
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g2p0-wayland-gbm_1.9-1_arm64.deb
-Size: 13995298
-MD5sum: 6fb18165e4c543c04e2a7794ec5a4ca6
-SHA1: 356c2f9ee6710f53de4d1d929caf76b649a46c4f
-SHA256: 848924664e809c4e5c0fba4b51fa7a5f0a27513766cf65255d8ba1bf1a5c5d09
+Size: 13989848
+MD5sum: 187c44ad4d209bc26144f967e7d9dba0
+SHA1: e10eb522d33b2aa79eca34cb7258d7e187500197
+SHA256: 4730115b7ba045f1cf68cdf79b1c9d09b6e13d62a3638541eb84dc1291db6030
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -495,16 +795,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 18608
+Installed-Size: 18710
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g2p0-without-cl-dummy-gbm_1.9-1_arm64.deb
-Size: 6276508
-MD5sum: c5a1ac93bc001c91ec1a7b80dcd10b27
-SHA1: 32a9925faafdc34bcdcb95ada1d9c2e0fea90026
-SHA256: 636aa37cb98b5cdfdda19011fd5466d6cf4429ba1a9a55d8b2c476dc91390577
+Size: 6272206
+MD5sum: 917ff9c266ab1e2407aa6018522d8f8a
+SHA1: 5d070bd7dc9549b6503d5c091314d3cdf0513c81
+SHA256: 97658e1e7aa16b92b788cca701a553c394efef10569ba83746ea81063c297347
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -515,16 +815,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 44876
+Installed-Size: 44961
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb
-Size: 13964394
-MD5sum: de1bb314dc38f36120a5609c18a06b9d
-SHA1: 6a01defd7b79857fbc2dc0766cbd16fd632307e2
-SHA256: 0046acf0fe8f022848a37a9aebfd21f56101d58f46636446780610410a56f6ff
+Size: 13954490
+MD5sum: 70a6b201f929b394da76c4def6d550b7
+SHA1: 7d3f07d260d5b230e5ad12cd6ea87cb167ffc686
+SHA256: 7ed531eb0a7da858455e5c9332eb7a263f152df3244ab3e1aa88939fc1da9b5b
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -541,10 +841,10 @@ Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-midgard-t86x-r18p0-gbm_1.9-1_arm64.deb
-Size: 9321722
-MD5sum: cb7f4973c5696fece47f86a35ad7b237
-SHA1: fe01d0dad8761330651f6e45bbcfba5f99b336cb
-SHA256: 21d17e2249aa23dc90dfaa8c3ce621f407d689ea0c887de33452452d16be7078
+Size: 9322308
+MD5sum: 1d857971dd71e69187e47b899bc1bf37
+SHA1: be95708ee4f90e8719bb1ec70948672031391861
+SHA256: 02073d00186b1866207d55213418670ad62a8e967915d71d62070654ad5e515c
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -561,10 +861,10 @@ Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-midgard-t86x-r18p0-wayland-gbm_1.9-1_arm64.deb
-Size: 9336080
-MD5sum: 76166d67209b4bdb441d48cfd5c7df19
-SHA1: c2e15daefef61f0575fa5f2ecf2c45610e8722ee
-SHA256: 21ab192d0b8b739b7857e192661b2cc727a0511308fdcb0841224cfd2ef3481c
+Size: 9349308
+MD5sum: a4df10fd01dda3007c3d313c526f9a2c
+SHA1: 42992513657f380afbcb3f5143665b91e0d67efc
+SHA256: 990bb240f108ff27d36c41e100d8365ac7e9eae935a5bf35e5e81620fd308105
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -581,10 +881,10 @@ Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-midgard-t86x-r18p0-x11-gbm_1.9-1_arm64.deb
-Size: 9303416
-MD5sum: 4f62559e8e220689079474c088f33a6a
-SHA1: 4119ba539d2985d39578e8a3d172070690fd85ef
-SHA256: 6c77942f051bd438bdf9d0a64a88ef609094eecf9c40a7aa159d80eb63a99c34
+Size: 9327380
+MD5sum: c6f23266ae1aac2dd7045c3833473f95
+SHA1: fe087496495cd8d4a44d10caf66ceaeb93568d0b
+SHA256: 54b8451209769ade0589b9824a4fdf0e9cd4d8437a959c271c8e1cc03a529290
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -601,10 +901,10 @@ Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-utgard-450-r7p0-gbm_1.9-1_arm64.deb
-Size: 601826
-MD5sum: 478137144aff8f8292c48b48cd81057c
-SHA1: 98431d7841b788988f48efc3b45e331cf10f0b80
-SHA256: a3a37025352a9de95a1b9afaad7a98156946e37d423eeda0cd67afc859ace891
+Size: 605560
+MD5sum: 0785d198deb3751b2a836e1de07d2396
+SHA1: a65a9f967e642de39725424dedefb6a5b6cc63e0
+SHA256: ee7693f845067eccd0a9f176dcd5560874bca31cd32bf2e0f9da158e1b69bde4
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -621,10 +921,10 @@ Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-utgard-450-r7p0-wayland-gbm_1.9-1_arm64.deb
-Size: 608580
-MD5sum: 3178ead1f6e908a6c533d20ed1d4eccd
-SHA1: 0b60bbf1ed479297950fc8621fee3772deee6d3a
-SHA256: 4a4d706e1811981f1dbc406e3a028f50089ce77a0ec92b904ee0c9d08434e1f4
+Size: 611482
+MD5sum: 8dd7db86ba8fce974e82d5cdccdd9e31
+SHA1: 39d7ca78afc0ba0c969a79065fabbfa7e03402fd
+SHA256: 27be9e7946c830eb5670389bb68e6000a2b4b0f4d7471040aa827d6fd34619cc
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -660,10 +960,10 @@ Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g13p0-dummy_1.9-1_arm64.deb
-Size: 14645074
-MD5sum: e383f19949fc40f6d794445776213616
-SHA1: be7e3540fb6ca4c1c0b0b0e1f3b03a20ef323838
-SHA256: 435a2a95c58511f743928336d0c0d35b154dd1e2837211e03abe8d372e391193
+Size: 14638044
+MD5sum: a8db631c251a2de08fd6ca6940d14958
+SHA1: ba623cbb6f19f3d168b615772736a09887e8c8e3
+SHA256: 8d9a8d0841c968986dd92c741b1c0249666e0484016ff29e613836bb407eaaeb
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -674,16 +974,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 42999
+Installed-Size: 43054
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g13p0-gbm_1.9-1_arm64.deb
-Size: 14655836
-MD5sum: eb190e24d2115ca5e404458966bde431
-SHA1: a700b3f491cdc9a723679b4072364eb109d5cde8
-SHA256: d1ee8fdffa6c1e3ae898813c486e8e6b79313b3a41d898d9e9b054303e28565f
+Size: 14624594
+MD5sum: b9dc26de0c0f8c6b5117e65080970565
+SHA1: 2a3440e44c524e28cac2aabdfd9817cca7993fee
+SHA256: 5299da76606bac7ef5ead084a5b369421ed093ef6750d054e8a78fd0e159e34e
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -694,16 +994,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43110
+Installed-Size: 43167
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm_1.9-1_arm64.deb
-Size: 14674476
-MD5sum: 31dddce8decd221016fb49dfa3a8f81f
-SHA1: 8f99edba993e248cefc2bc309543a5f61c13873a
-SHA256: 49c0c12d8edd9928b743235e6c2186160bf5973327d642db3f55a68a2b9b90b9
+Size: 14635428
+MD5sum: 8f9cde307d4e92152b283359e4040d27
+SHA1: 96bfcf335b261f38c82a812d1f5c06f3da3383ac
+SHA256: ce2e3b23439f2aa283078d3669c65065711e983988087a83429c53d55e11b2f0
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -714,16 +1014,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43055
+Installed-Size: 43107
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g13p0-x11-gbm_1.9-1_arm64.deb
-Size: 14636812
-MD5sum: 736c410a56db55ae76d14939ba749be8
-SHA1: 5890a673f660e5e1acf5b9d1d936b38fbf7336c3
-SHA256: 59628bc678b82189a46b759fe9756190b0f0f92cd985f6b4902415fcc8ceaade
+Size: 14639672
+MD5sum: 6d9d053ba34c3b93fdaee5b01ccd400c
+SHA1: f7d7041fad9a86426f47f81c7991d9a2a847d32f
+SHA256: ac876c3457d807e8f42b03a23be4066a28aca41c5277471f6a87cb860c1f9ec0
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -734,16 +1034,116 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43146
+Installed-Size: 43204
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g13p0-x11-wayland-gbm_1.9-1_arm64.deb
-Size: 14640012
-MD5sum: facdbce52900de135f5d844ffa067310
-SHA1: 26d34079640f5d4f0e0e30ae11d57f785b1ffb27
-SHA256: ce73c8b762f517606d1d1d5494e836a79765238e7a592377e0ea30a802292435
+Size: 14639476
+MD5sum: c4862a6118d797d8dcf33b1b74749d8b
+SHA1: 2177d61ce76f883ce33f645d0eaabc4037b69ba1
+SHA256: c71fee74e9f49d0c6a824bbef2867ee8e5ce8853a8a68fcab7d79734bc7a06d1
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-dummy
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57058
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g24p0-dummy_1.9-1_arm64.deb
+Size: 19166854
+MD5sum: 1aade1822ada5781ff4858590ef6349f
+SHA1: ef74c3b0e5163fe25b98e211b445567f76ec8d81
+SHA256: 580e3c055201f8f5403ccfba831714d7f5a88c860cad4d07d7edfa6bde605be8
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57021
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
+Size: 19157474
+MD5sum: 25a0bc74396c6c1512ffd3df416e0b83
+SHA1: 100215a437f24e23585973d61a90855df6eee53c
+SHA256: 2a33e665702a2f2dbccf3e2d05c719329b88d28915c666edee39446c0693d5f7
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57078
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g24p0-wayland-gbm_1.9-1_arm64.deb
+Size: 19159344
+MD5sum: 359e8dd75dd55ab13d9c948ede9d4dbf
+SHA1: d1924f5e3877f7defa5b387d382132406c8cb207
+SHA256: fee2cfb3fa487b5d2107e0849d4a4d64b944fbf67980b69a3c97d428c2a22c18
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-x11-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57018
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g24p0-x11-gbm_1.9-1_arm64.deb
+Size: 19179490
+MD5sum: 91cfc4b8ff6654a47105f27617ad4e81
+SHA1: bf062924ddc04b136b8e7a0d685ae40fdfa818de
+SHA256: d3c79509ba2e59a0ac6f591244f3c318d13f6588e02f960be86602ef20badbda
+Section: libs
+Priority: optional
+Homepage: https://github.com/rockchip-linux/libmali
+Description: Mali GPU User-Space Binary Drivers
+
+Package: libmali-valhall-g610-g24p0-x11-wayland-gbm
+Source: libmali
+Version: 1.9-1
+Architecture: arm64
+Maintainer: Putin Lee <putin.li@rock-chips.com>
+Installed-Size: 57107
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.31), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
+Conflicts: libmali
+Replaces: libmali
+Provides: libmali
+Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
+Size: 19166518
+MD5sum: dc458d16c6caf8876d0b8234b0108467
+SHA1: 4664d26e908c364cd938710aadcf80f7c93fc8ec
+SHA256: cac7a55615f5494a99672892635c90d3b0b2de8a6ce9164f202cad2bd4e5993f
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -754,16 +1154,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43372
+Installed-Size: 43436
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g6p0-dummy_1.9-1_arm64.deb
-Size: 13612370
-MD5sum: 0beae945ceb08118e2260b3fa94fb9ad
-SHA1: 26cd6c180f7abd61c52d4ff56e19a4b9fb7d0b97
-SHA256: 3422f6ddcde5710cc14f2d580ca81e905e2c0ac18ca24bbc1a2f1850b7cf67dd
+Size: 13637170
+MD5sum: ffbc93b42e0793a6e2475af360d0704f
+SHA1: d9814ab6fc4fcdf59ae430595599c171e0fb1bac
+SHA256: 239ba6e3b1ab6fc0dd41e3160ec347bce85d2673dbd9686bf9cfc024386f96f3
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -774,16 +1174,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43433
+Installed-Size: 43555
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g6p0-gbm_1.9-1_arm64.deb
-Size: 13612322
-MD5sum: 3a65cb2212c5adba9ab86c152a09044b
-SHA1: ad3ac4bb21fa5dc354e68b4ca0ed98d361895c55
-SHA256: 7f328e273c559825e87ba77dc98479b00f9fed02465d2535815a11995311d478
+Size: 13631002
+MD5sum: fb2bf173f9a82062c647aca8165cde91
+SHA1: e9e52cbe8402ce786985fe66f8f41a79c8577214
+SHA256: ad6151a36f72e5868a5800884e055f8eb4def7e377562785d35ddbc98c270b4a
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -794,16 +1194,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43506
+Installed-Size: 43572
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0)
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g6p0-wayland-gbm_1.9-1_arm64.deb
-Size: 13651896
-MD5sum: 476a904e5709db1f124830a3e12f7c1b
-SHA1: dc9844959c653ec52fcd696bb3ad04965d4e065a
-SHA256: 704e49ab13474c3c0a90e02748d8f0a151224ce0af020df61fcadd90bb7ecd04
+Size: 13637238
+MD5sum: d287b802b4f3e089e0bb1d2568d0c15a
+SHA1: 8d48213d2145876a60be129e0db96a33e325a235
+SHA256: 4af10c5627bc087e33e80a1d7e051ddb87d72b05838d2c2a2ec0bf052dd463f5
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -814,16 +1214,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43450
+Installed-Size: 43567
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g6p0-x11-gbm_1.9-1_arm64.deb
-Size: 13637172
-MD5sum: 563f6257c6df9a1feb1b83dee995146c
-SHA1: 5b1af033b35e16178b1f3f5ed53a64a40b1d5467
-SHA256: 6caee33be346ba32b12c3a2e414f16e89204929ee7b20289103ac1de8a68946c
+Size: 13641162
+MD5sum: 3359bf9487a012c784951354307f4459
+SHA1: 303f1046e40273801d97604fa6401ecd19c777d3
+SHA256: d68aacbd581029424d29baad4432ef86e1435cef084784e1d627b681ab3ac00a
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
@@ -834,16 +1234,16 @@ Source: libmali
 Version: 1.9-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 43531
+Installed-Size: 43598
 Depends: libc6 (>= 2.34), libdrm2 (>= 2.3.1), libgcc-s1 (>= 4.2), libstdc++6 (>= 4.9), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0 (>= 1.8), libxcb1
 Conflicts: libmali
 Replaces: libmali
 Provides: libmali
 Filename: dists/noble/main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
-Size: 13626942
-MD5sum: 632b0cec0748f47d57a09c547425d042
-SHA1: 84525c0189b01c65e74d1888b70555505b71496f
-SHA256: c241a2e5da5c25bd8dbc0210a29eda1ad73eaa1d5d8ac99115ba6b80e3ac71e2
+Size: 13652918
+MD5sum: 7dcf2d4e0ee5ee96c10c513a65758ce1
+SHA1: c46e67e98f904d5f99a2422dabb8ca4bc37bb6a9
+SHA256: a36b40624726d4b5e12b5d70d43ceb7ea174061993c92572c7be0face1b67c95
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/libmali
