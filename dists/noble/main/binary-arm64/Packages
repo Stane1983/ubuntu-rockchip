@@ -9,6 +9,37 @@ SHA1: a591542b6d8161a950ff6337c419aabe917e3d10
 SHA256: 16c58cea4540ec6d94e9b2ba9d14e56897fa623d18fd78bc7f8c4b65a1d78d07
 Description: Linux support for Broadcom BT modules
 
+Package: gir1.2-gst-plugins-base-1.0
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 470
+Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gstreamer-1.0 (>= 1.24.0), libgstreamer-gl1.0-0 (>= 1.23.1), libgstreamer-plugins-base1.0-0 (>= 1.23.2)
+Filename: dists/noble/main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.2-1ubuntu0.1_arm64.deb
+Size: 117978
+MD5sum: 976ce43ff3dfe1b92db8b41c3f12bea4
+SHA1: 983506229863c90f2e7f241e26c53408a7ab799b
+SHA256: 72bb0ab35d65c610af53b097a14b7ac0b5f755686ec105df662e4bf9ce10bd1a
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GObject introspection data for the GStreamer Plugins Base library
+ This package contains introspection data for the GStreamer Plugins Base
+ library.
+ .
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
 Package: gir1.2-gstreamer-1.0
 Source: gstreamer1.0
 Version: 1.24.2-1
@@ -38,6 +69,135 @@ Description: GObject introspection data for the GStreamer library
  .
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
+
+Package: gstreamer1.0-alsa
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 179
+Depends: libasound2t64 (>= 1.0.27), libc6 (>= 2.17), libglib2.0-0t64 (>= 2.79.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
+Suggests: alsa-utils (>= 0.9.0)
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-alsa_1.24.2-1ubuntu0.1_arm64.deb
+Size: 43314
+MD5sum: 834974c1bf77fb850b20992d0de3ec52
+SHA1: cca21d8f2a25b3262b5a34057c11921e822af09b
+SHA256: e7a68970755b36caa9bea2529339923030868cb53cfcfe2e5d70c2ad7aa73c35
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugin for ALSA
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for the ALSA library.  ALSA
+ is the Advanced Linux Sound Architecture.
+Gstreamer-Elements: alsamidisrc, alsasink, alsasrc
+Gstreamer-Version: 1.24
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-gl
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 436
+Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.79.0), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libjpeg8 (>= 8c), libpng16-16t64 (>= 1.6.2), libx11-6
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
+Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-gl_1.24.2-1ubuntu0.1_arm64.deb
+Size: 116734
+MD5sum: 43ebcac11d752703719c002f69c010be
+SHA1: 99d860ab22ac427fca47bf180363b7cb820f6d86
+SHA256: 72d906af245e1621095ab38cbd5764d95175f7280eb1e7fab100482f2189f56b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins for GL
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins for GL.
+Gstreamer-Elements: glalpha, glcolorbalance, glcolorconvert, glcolorscale, gldeinterlace, gldifferencematte, gldownload, gleffects, gleffects_blur, gleffects_bulge, gleffects_fisheye, gleffects_glow, gleffects_heat, gleffects_identity, gleffects_laplacian, gleffects_lumaxpro, gleffects_mirror, gleffects_sepia, gleffects_sin, gleffects_sobel, gleffects_square, gleffects_squeeze, gleffects_stretch, gleffects_tunnel, gleffects_twirl, gleffects_xpro, gleffects_xray, glfilterapp, glfilterbin, glfiltercube, glfilterglass, glimagesink, glimagesinkelement, glmixerbin, glmosaic, gloverlay, gloverlaycompositor, glshader, glsinkbin, glsrcbin, glstereomix, glstereosplit, gltestsrc, gltransformation, glupload, glvideoflip, glvideomixer, glvideomixerelement, glviewconvert
+Gstreamer-Version: 1.24
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-plugins-base
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3083
+Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0t64 (>= 2.79.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libtheora0 (>= 1.1), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
+Suggests: gvfs
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
+Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-plugins-base_1.24.2-1ubuntu0.1_arm64.deb
+Size: 695584
+MD5sum: 9c55bbd89a9192acce336631caf41a0c
+SHA1: e094a8b9224a80bfa3aba3da1c16179ee6c73e0c
+SHA256: b7a1fac07777a5802f1a4e9854f13068a4cf96b17420cb8b7241821471acaf37
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins from the "base" set, an
+ essential exemplary set of elements.
+Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ A444_16LE, A444_16BE, AYUV64, RGBA64_LE, ARGB64, ARGB64_LE, BGRA64_LE, ABGR64_LE, RGBA64_BE, ARGB64_BE, BGRA64_BE, ABGR64_BE, A422_16LE, A422_16BE, A420_16LE, A420_16BE, A444_12LE, GBRA_12LE, A444_12BE, GBRA_12BE, Y412_LE, Y412_BE, A422_12LE, A422_12BE, A420_12LE, A420_12BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, BGR10A2_LE, RGB10A2_LE, Y410, A444, GBRA, AYUV, VUYA, RGBA, RBGA, ARGB, BGRA, ABGR, A422, A420, AV12, Y444_16LE, GBR_16LE, Y444_16BE, GBR_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, NV16_10LE40, Y210, UYVP, v210, I420_10LE, I420_10BE, P010_10LE, NV12_10LE40, NV12_10LE32, P010_10BE, MT2110R, MT2110T, NV12_10BE_8L128, NV12_10LE40_4L4, Y444, BGRP, GBR, RGBP, NV24, v308, IYU2, RGBx, xRGB, BGRx, xBGR, RGB, BGR, Y42B, NV16, NV61, YUY2, YVYU, UYVY, VYUY, I420, YV12, NV12, NV21, NV12_16L32S, NV12_32L32, NV12_4L4, NV12_64Z32, NV12_8L128, Y41B, IYU1, YUV9, YVU9, BGR16, RGB16, BGR15, RGB15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
+Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, dsdconvert, encodebin, encodebin2, fakevideodec, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
+Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
+Gstreamer-Uri-Sinks: appsink, file, resource
+Gstreamer-Uri-Sources: appsrc, cdda, file, resource
+Gstreamer-Version: 1.24
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-plugins-base-apps
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 253
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.75.3), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.24.0), gstreamer1.0-tools
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.2-1ubuntu0.1_arm64.deb
+Size: 40310
+MD5sum: 2d2e78224f76d6088e4a337bf1f38c88
+SHA1: d29ff4d98b52b49f3c738f3859e4f22511856ed2
+SHA256: 21eef8cbd299c3fb48e7a16b61d8a6d4943d3e03859168f1a632997dce670ffc
+Section: utils
+Priority: optional
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer helper programs from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains helper programs from the "base" set, an essential
+ exemplary set of elements.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
@@ -81,6 +241,38 @@ Description: Tools for use with GStreamer
  installing new plug-ins.
  .
  This package contains versioned command-line tools for GStreamer.
+
+Package: gstreamer1.0-x
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 377
+Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.79.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1
+Provides: gstreamer1.0-videosink
+Filename: dists/noble/main/binary-arm64/gstreamer1.0-x_1.24.2-1ubuntu0.1_arm64.deb
+Size: 89982
+MD5sum: c3a778548283495cafbe407d543d38d2
+SHA1: a8c52372d2e624042e847f53d343aa278c2013d4
+SHA256: cccbcc4808898d01bf3d698ec88c88f0275c9ebbc78c8c954be0440415c35c3f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer plugins for X11 and Pango
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins for X11 video output, both
+ for standard Xlib support and for the Xv extension, as well as the
+ plugin for Pango-based text rendering and overlay.
+Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesink, xvimagesink
+Gstreamer-Version: 1.24
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
 Package: libdrm-cursor
 Version: 1.4.1-1
@@ -145,6 +337,97 @@ Section: libdevel
 Priority: optional
 Homepage: https://github.com/JeffyCN/libdrm-mirror
 Description: A hook of legacy DRM APIs to mirror connectors.
+
+Package: libgstreamer-gl1.0-0
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 713
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libglib2.0-0t64 (>= 2.79.0), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb1
+Recommends: gstreamer1.0-gl
+Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Filename: dists/noble/main/binary-arm64/libgstreamer-gl1.0-0_1.24.2-1ubuntu0.1_arm64.deb
+Size: 211972
+MD5sum: 04a16818bc858320281834a8dea06847
+SHA1: b3361391728a3467ffbfef44b89de4866a9e89e4
+SHA256: 67480998f6c7a59ba3252f2e76ddc2ca79a648bc19de90cce9bc6f3c12bf0cf0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer GL libraries
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GL library.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: libgstreamer-plugins-base1.0-0
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3823
+Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.74), libglib2.0-0t64 (>= 2.79.0), libgstreamer1.0-0 (>= 1.24.0), liborc-0.4-0t64 (>= 1:0.4.34), librga2, zlib1g (>= 1:1.1.4), iso-codes
+Recommends: gstreamer1.0-plugins-base
+Suggests: libvisual-0.4-plugins
+Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
+Filename: dists/noble/main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.2-1ubuntu0.1_arm64.deb
+Size: 947814
+MD5sum: a7623ec9d1a65afb8d7517769e1c530f
+SHA1: 5a7737f50596df2a89b35541a767e0441c8daf47
+SHA256: 3215be288a95a1b26eca66c670c0c971beca29419a3ae8921c845e311647f71f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer libraries from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains libraries from the "base" set, an essential
+ exemplary set of elements.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: libgstreamer-plugins-base1.0-dev
+Source: gst-plugins-base1.0
+Version: 1.24.2-1ubuntu0.1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6274
+Depends: libgstreamer-plugins-base1.0-0 (= 1.24.2-1ubuntu0.1), libgstreamer-gl1.0-0 (= 1.24.2-1ubuntu0.1), libc6-dev | libc-dev, pkgconf, libgstreamer1.0-dev (>= 1.16.2), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl-dev, libegl-dev, libgles-dev, libx11-xcb-dev, libwayland-dev (>= 1.11), libdrm-dev (>= 2.4.55), libgbm-dev, libgudev-1.0-dev (>= 147), gir1.2-gst-plugins-base-1.0 (= 1.24.2-1ubuntu0.1)
+Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
+Breaks: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
+Filename: dists/noble/main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.2-1ubuntu0.1_arm64.deb
+Size: 469676
+MD5sum: c72682e867facd7df96f6c80ab6133d6
+SHA1: fac6ca7de7897559ee2ab48498bf5eb09fb0465b
+SHA256: b0e8bf39eef70a0bae6ed6b0a3af3f7281f34153cd0f73564a3d4b21c77f4635
+Section: libdevel
+Priority: optional
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer development files for libraries from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for GStreamer libraries from
+ the "base" set, an essential exemplary set of elements.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
 Package: libgstreamer1.0-0
 Source: gstreamer1.0
