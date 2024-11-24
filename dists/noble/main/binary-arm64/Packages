@@ -9,6 +9,41 @@ SHA1: a591542b6d8161a950ff6337c419aabe917e3d10
 SHA256: 16c58cea4540ec6d94e9b2ba9d14e56897fa623d18fd78bc7f8c4b65a1d78d07
 Description: Linux support for Broadcom BT modules
 
+Package: dvb-tools
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 454
+Depends: libdvbv5-0t64 (= 1.26.1-4build3), libc6 (>= 2.38)
+Filename: dists/noble/main/binary-arm64/dvb-tools_1.26.1-4build3_arm64.deb
+Size: 123100
+MD5sum: b9aa04c726cf0e145ee6581a81162452
+SHA1: 43add4347677fb87e36b13fad24fae4e262ffef4
+SHA256: 027e9f8115c12ff99882ee5c1ae6f16749f61625ae0a8bf1486cf9652e8e3de3
+Section: utils
+Priority: optional
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Collection of command line DVB utilities
+ This is a series of tools written to help testing and working with DVB,
+ using its latest V5 API. The tools can also work with the DVBv3 API.
+ .
+ The current tools are:
+ .
+ dvb-fe-tool: a simple test application, that reads from the frontend.
+ it also allows one to change the default delivery system.
+ In the future, it may be used to change any property via command line.
+ .
+ dvb-format-convert: converts from zap and scan initial-tuning-data-file
+ into the new format defined to work with DVBv5.
+ .
+ dvbv5-scan: a DVBv5 scan tool.
+ .
+ dvbv5-zap: a DVBv5 zap tool. It allows one to tune into a DVB channel,
+ and to watch to a DVB service (e. g. receiving the video and audio
+ streams, via another application using the dvr device).
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
 Package: gir1.2-gst-plugins-bad-1.0
 Source: gst-plugins-bad1.0
 Version: 1.24.2-1ubuntu4
@@ -579,6 +614,29 @@ Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesi
 Gstreamer-Version: 1.24
 Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
+Package: ir-keytable
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 541
+Depends: libbpf1 (>= 1:0.6.0), libc6 (>= 2.38), libelf1t64 (>= 0.131)
+Recommends: udev
+Filename: dists/noble/main/binary-arm64/ir-keytable_1.26.1-4build3_arm64.deb
+Size: 158536
+MD5sum: dd5a3fac3bcd9461acdad39836261bd0
+SHA1: 922a90ba2bef2ad5a4c51a05ca99fbf879b4ebf3
+SHA256: c6a798df91353c780bdd15a060e73ff6c910770859bd8e34b34c7f89d8cefd70
+Section: utils
+Priority: optional
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Alter keymaps of Remote Controller devices
+ This package allows one to change the keymap of controller receivers.
+ Those receivers are found as infrared receivers on DVB sticks or on
+ framegrabber cards. Via ir-keytable the mapping from a scancode to
+ the generated event can be customized and made persistent.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
 Package: libdrm-cursor
 Version: 1.4.1-1
 Architecture: arm64
@@ -642,6 +700,79 @@ Section: libdevel
 Priority: optional
 Homepage: https://github.com/JeffyCN/libdrm-mirror
 Description: A hook of legacy DRM APIs to mirror connectors.
+
+Package: libdvbv5-0t64
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 567
+Depends: libc6 (>= 2.38), libudev1 (>= 183)
+Breaks: libdvbv5-0 (<< 1.26.1-4build3)
+Replaces: libdvbv5-0
+Provides: libdvbv5-0 (= 1.26.1-4build3)
+Filename: dists/noble/main/binary-arm64/libdvbv5-0t64_1.26.1-4build3_arm64.deb
+Size: 193148
+MD5sum: ddf00adea09fbfa98393069381f89824
+SHA1: 401196040330311ae7811066a03d65380deb2c58
+SHA256: e3dcad076792ea660ee9858d00bd296259b3a5c937a34e2b5952310b100e1494
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Libraries to control, scan and zap on Digital TV channels
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: libdvbv5-dev
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1069
+Depends: libdvbv5-0t64 (= 1.26.1-4build3), libudev-dev
+Suggests: pkgconf, libdvbv5-doc
+Filename: dists/noble/main/binary-arm64/libdvbv5-dev_1.26.1-4build3_arm64.deb
+Size: 247430
+MD5sum: 8f71f3173a666ed5203de568198c9093
+SHA1: e25da87892a6e8c6c62d8033d5b2249caa01a694
+SHA256: 15049ab7f8cceba03cf4b211b747d18fc33eac4034590d37cfc47b4e11b6f9b8
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Development files for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package contains the development files.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5661
+Suggests: devhelp
+Filename: dists/noble/main/binary-arm64/libdvbv5-doc_1.26.1-4build3_all.deb
+Size: 403852
+MD5sum: 04cc8b5d335425e1a5b2662c9bff5a52
+SHA1: 0310a3cab382f3fc784e84c5b79566e54acf81d4
+SHA256: 1f4f56615c642ff0b5d6f057df079e61e12c52e4505e1c2240c125141239033d
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
 Package: libgstreamer-gl1.0-0
 Source: gst-plugins-base1.0
@@ -2191,6 +2322,173 @@ Priority: optional
 Homepage: http://www.rock-chips.com
 Description: Media Process Platform
 
+Package: libv4l-0t64
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 474
+Depends: libv4lconvert0t64 (= 1.26.1-4build3), libc6 (>= 2.34)
+Breaks: libv4l-0 (<< 1.26.1-4build3)
+Replaces: libv4l-0
+Provides: libv4l-0 (= 1.26.1-4build3)
+Filename: dists/noble/main/binary-arm64/libv4l-0t64_1.26.1-4build3_arm64.deb
+Size: 113970
+MD5sum: 601b274ec2801c97c587b66d4d7e2a61
+SHA1: d8ce91828fd5ed7efbc05ee9c3706dbe87944bd9
+SHA256: 271e571093325ffc877738025224f9d11b067111c8916b0a101cad7cd3c419bb
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Collection of video4linux support libraries
+ libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ .
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ .
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: libv4l-dev
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 431
+Depends: libv4l-0t64 (= 1.26.1-4build3), libv4lconvert0t64 (= 1.26.1-4build3), libv4l2rds0t64 (= 1.26.1-4build3), libjpeg-dev
+Suggests: pkgconf
+Filename: dists/noble/main/binary-arm64/libv4l-dev_1.26.1-4build3_arm64.deb
+Size: 122250
+MD5sum: 1aaebd739eaa6070530e4ebb40f1b44d
+SHA1: b165c5a474f3038c169b905155f2002b0028be74
+SHA256: dbc2645bf1e4e14a2b2eccac663a496702d3a047f25ca56cf1ab91b10d1ccf0c
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Collection of video4linux support libraries (development files)
+ libv4l is a collection of libraries which adds a thin abstraction layer on
+ top of video4linux2 devices. The purpose of this (thin) layer is to make it
+ easy for application writers to support a wide variety of devices without
+ having to write separate code for different devices in the same class. libv4l
+ consists of 3 different libraries: libv4lconvert, libv4l1 and libv4l2.
+ .
+ libv4lconvert offers functions to convert from any (known) pixelformat
+ to BGR24, RGB24, YUV420 and YVU420.
+ .
+ libv4l1 offers the (deprecated) v4l1 API on top of v4l2 devices, independent
+ of the drivers for those devices supporting v4l1 compatibility (which many
+ v4l2 drivers do not).
+ .
+ libv4l2 offers the v4l2 API on top of v4l2 devices, while adding for the
+ application transparent libv4lconvert conversion where necessary.
+ .
+ This package contains the development files.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: libv4l2rds0t64
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 176
+Depends: libc6 (>= 2.17)
+Breaks: libv4l2rds0 (<< 1.26.1-4build3)
+Replaces: libv4l2rds0
+Provides: libv4l2rds0 (= 1.26.1-4build3)
+Filename: dists/noble/main/binary-arm64/libv4l2rds0t64_1.26.1-4build3_arm64.deb
+Size: 85482
+MD5sum: a30d89d5b12d7c890fc43c344497d345
+SHA1: f4ed2b7a1d6691b30a13eaf8588ea6341e63cdad
+SHA256: dd13b102c1ff79d6aa4a9e565a6fb938eb91e84c84f401af097d8b4c2cfe75c5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Video4Linux Radio Data System (RDS) decoding library
+ This library decodes a RDS stream obtained from a Video4Linux (V4L)
+ version 2 device. It supports both: the US based RBDS and European RDS
+ protocol.
+ .
+ This package contains the shared library.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: libv4lconvert0t64
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 440
+Depends: libc6 (>= 2.38), libjpeg8 (>= 8c)
+Breaks: libv4lconvert0 (<< 1.26.1-4build3)
+Replaces: libv4lconvert0
+Provides: libv4lconvert0 (= 1.26.1-4build3)
+Filename: dists/noble/main/binary-arm64/libv4lconvert0t64_1.26.1-4build3_arm64.deb
+Size: 154148
+MD5sum: 68de771f9bc3e803b3a3a86c985f4985
+SHA1: 3bdef059f169b9a58bf68b4a1431d1fd22e1efd5
+SHA256: eb8dda6a69b0a0fdae1491e43299c8a61f4bfeb81667f543775c692aba8104e3
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Video4linux frame format conversion library
+ libv4lconvert offers functions to convert from any (known) pixelformat
+ to BGR24, RGB24, YUV420 and YVU420.
+ .
+ This package contains the shared library.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: qv4l2
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 616
+Depends: libv4l-0t64 (= 1.26.1-4build3), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgl1, libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5opengl5t64 (>= 5.0.2), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 4.1.1), libv4lconvert0t64 (>= 0.9.0~test5)
+Filename: dists/noble/main/binary-arm64/qv4l2_1.26.1-4build3_arm64.deb
+Size: 206314
+MD5sum: ec0f7c6919bb996c725a570f005aac17
+SHA1: c0646c2168d79cca38cbb8d172f1fffcd9746cfa
+SHA256: 3e1c5d6970bd90946bc00c8674162b0cd34ede5c0d69c7bd79f1d3fc824b383e
+Section: utils
+Priority: optional
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Test bench application for video4linux devices
+ Qt v4l2 control panel application. You can change all through the v4l2
+ interface exposed device controls.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
+Package: qvidcap
+Source: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 393
+Depends: libv4l-0t64 (= 1.26.1-4build3), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgl1, libqt5core5t64 (>= 5.3.0), libqt5gui5t64 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5widgets5t64 (>= 5.4.0), libstdc++6 (>= 5.2)
+Filename: dists/noble/main/binary-arm64/qvidcap_1.26.1-4build3_arm64.deb
+Size: 180720
+MD5sum: 7e1992966da2ba59dfee7730defda49d
+SHA1: e4619727c259d8521eb21f4842310afede22d574
+SHA256: b6686b712ccc7cd40953ba42cb7c8e0d5159f143c3a1c517c33c8e761c96f92b
+Section: utils
+Priority: optional
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Capture test utility for video4linux devices
+ The qvidcap tool is used to test video4linux capture devices,
+ either using a video device, a file, or over network.
+ This application can also serve as a generic video/TV viewer application.
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
+
 Package: rockchip-mpp-demos
 Source: mpp
 Version: 1.5.0-1
@@ -2207,4 +2505,31 @@ Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
 Description: Media Process Platform Demos
+
+Package: v4l-utils
+Version: 1.26.1-4build3
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2679
+Depends: libv4l-0t64 (= 1.26.1-4build3), libv4l2rds0t64 (= 1.26.1-4build3), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libudev1 (>= 183)
+Breaks: ivtv-utils (<< 1.4.1-2), media-ctl
+Replaces: ivtv-utils (<< 1.4.1-2), media-ctl
+Filename: dists/noble/main/binary-arm64/v4l-utils_1.26.1-4build3_arm64.deb
+Size: 707398
+MD5sum: 058b65983215db007f50a80be84ef28e
+SHA1: a8a34f95f5e8305cb53583d36373f5ba883d64a4
+SHA256: 8853e95e03875029c3240ff92edf7a5fcce714a6f232c1e81fc522a4ef42018c
+Section: utils
+Priority: optional
+Homepage: https://linuxtv.org/wiki/index.php/V4l-utils
+Description: Collection of command line video4linux utilities
+ v4l-utils contains the following video4linux command line utilities:
+ .
+  decode_tm6000: decodes tm6000 proprietary format streams
+  rds-ctl: tool to receive and decode Radio Data System (RDS) streams
+  v4l2-compliance: tool to test v4l2 API compliance of drivers
+  v4l2-ctl, cx18-ctl, ivtv-ctl: tools to control v4l2 controls from the cmdline
+  v4l2-dbg: tool to directly get and set registers of v4l2 devices
+  v4l2-sysfs-path: sysfs helper tool
+Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
