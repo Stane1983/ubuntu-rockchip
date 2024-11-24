@@ -2243,12 +2243,12 @@ Source: librga
 Version: 2.2.0-1
 Architecture: arm64
 Maintainer: Putin Lee <putin.li@rock-chips.com>
-Installed-Size: 137
+Installed-Size: 138
 Filename: dists/noble/main/binary-arm64/librga-dev_2.2.0-1_arm64.deb
-Size: 18052
-MD5sum: 5d73cc74c146b4274f3250be61a1fae3
-SHA1: 24d5c86876d6aad7aa2c8baa429bfcd9b57649a0
-SHA256: 1b5d8484e7490becf36bb04557258207629088c2b32315b742717d7a13fa5978
+Size: 18438
+MD5sum: b56f813b512a85dd47aaf6acb2346cc4
+SHA1: bcbd3b09342a4c2f8c2530f5e597b6c2bf4c9407
+SHA256: 582624144451a91070fc9bfc5a8bde3bc85157444e000ac2fd3c94095878565c
 Section: libdevel
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
@@ -2262,10 +2262,10 @@ Maintainer: Putin Lee <putin.li@rock-chips.com>
 Installed-Size: 211
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Filename: dists/noble/main/binary-arm64/librga2_2.2.0-1_arm64.deb
-Size: 68712
-MD5sum: a9ce9ec4d831c5cf3aa79d2f931f2fdb
-SHA1: abae98baa3ed4c2c7a600d04fa64eb0495df0c43
-SHA256: b7a69b18224ae341f3254638dad430473ea2afc1ec3537d0147ca507529be263
+Size: 74100
+MD5sum: 3f4993b3396b2bcc40df3906e3f0c56a
+SHA1: 95435c39dd81b0ab855838fdc9f4e0790b144cac
+SHA256: e0f83162217244c5b019b1b2a51241d552f219b61145a79e4a076af9181b62aa
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/linux-rga
