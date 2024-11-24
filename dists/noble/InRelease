@@ -9,9 +9,9 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Stan's Rockchip repository
-Date: Sun, 24 Nov 2024 11:49:14 +0000
+Date: Sun, 24 Nov 2024 11:54:32 +0000
 MD5Sum:
- 745cfcd06554c637b26e75155602393b 41887 InRelease
+ 1213ccc5801ffe77a6063b78014b93cf 41887 InRelease
  7dcf2d4e0ee5ee96c10c513a65758ce1 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  3394b811348b39b96035f73a78f37eda 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
  447825f561a593acb71b4fc2759b1e94 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
@@ -124,9 +124,9 @@ MD5Sum:
  7f13fee59518f7a874aa4ef08f33422a 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
  5b446f22e19d95f3b3dd7d455631b387 94178 main/binary-arm64/gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
  12aa82141a3e6717cea6091000e18db1 90936 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
- 46b32bed329e2c7c8b978245f79c8421 858 Release.gpg
+ 761e327290ffe96cb865fc1211a65e92 858 Release.gpg
 SHA1:
- 83cedf53a38474e362213826197583006edcd066 41887 InRelease
+ 0f4e656287fc86c17f0c97b126a010748870450c 41887 InRelease
  c46e67e98f904d5f99a2422dabb8ca4bc37bb6a9 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  9d01893f771fff75e9e37db86306cbb4c867bc7b 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
  d2e67721db06fd70e8d1f07758eb0bf69cb92bca 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
@@ -239,9 +239,9 @@ SHA1:
  c58ba38a34b3ef4a9a3cf6b52b2723118a083e12 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
  436d9c71ecb37dafa888a81532a891be9c12997c 94178 main/binary-arm64/gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
  a28a05f6aceeba3ee182b1767894a105aef7da3a 90936 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
- f1fca733ad0caad38357c88d616ac7e1496fb663 858 Release.gpg
+ 9cba78de941503c18fc180d247c2633d41c6f5ed 858 Release.gpg
 SHA256:
- 270bb96af6922b195965b51addb04e6acc677bdbceb17375ea653bd2ff5190be 41887 InRelease
+ 757259a89f1945ae0c403675141dd26a70a53ba9768100270d4978cfc5ca8ed6 41887 InRelease
  a36b40624726d4b5e12b5d70d43ceb7ea174061993c92572c7be0face1b67c95 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  56e87ba4c5b6e5b0b9e9d000ab2a5b856d0373598c93f169f15dc8e75a1875cd 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
  edb7918f7505674e8af219d8b54707d90b332fe1f4181e4c036546b1532c6047 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
@@ -354,21 +354,21 @@ SHA256:
  84f98dfbcc0f867f0d5d7b39c19d5d025a961ca5e1b3b6ec3dc222b95fb063a1 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
  506c2a5a600bd560c8821a2949bc21f859e5d372477d263b4559368eb94dc165 94178 main/binary-arm64/gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
  5a5c3a5d63592932542fd52fe14b8f25b72771a2ccf3d5f10e6d5147dd7811d3 90936 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
- 4514ccf62677c2450aebef6821cb6c16b69a41642f840c432415661738cbfc23 858 Release.gpg
+ 36d9dc9535a838a6accc890993f88539c9c9511279bdd1da02aa248fc5a44789 858 Release.gpg
 -----BEGIN PGP SIGNATURE-----
 
-iQJGBAEBCAAwFiEEFXotnXXSul+1ztoAYtNGJTeZz8YFAmdDEsASHHN2bGFzaWNA
-Z21haWwuY29tAAoJEGLTRiU3mc/GUtsP/2NnFrQSJfxqlvvHMB7mb1EdLzGdTOAU
-lpLnZqZVeHwwmz59Wk+9wMOJigulYhtFKPZ8F8IGnxMnyhJK/+uz47iWdYUPVYxr
-zcqLNo4DEgNIp+zid9NSQRSZOf9aWmv1UCkMmGhj/YkqlTiSL1xpNG8Ng9T41IX7
-oVWaXYU+7QUg/LVo5ABcUJmq3OnyEF5ttULXw6KK9O7W6XDYpwTkEd1ROZ9xNGUN
-zNbfcYOyrJ+BxkZL6i8V65u0A5QuGNYO2V4TOfzW6/90Qjbn7XTZO2SnCjy4tpEk
-/x26m806BpwnRNWDlcYe7owRvXTs4mY03GV/NCZjOyLkab+BHpQGzzByfyDG9Qv0
-TYikZDn5R+jkiW+Eg/ChA/wA+7jGQOLhy2Tpw0uLeY/IYmWHjfdn+/YigGxfJUa0
-g4drYwzXrIsZT796C1PHeaZWcLy7JaTqufQediNYgiS/EzXLHFkOk6yqYbtqosDl
-YQ3qB9hnUM7sAmaHa4S4P811QS2yCbZw1RSEtFnvd/hllszRCTMKTzMyozO5Vbfl
-oQLxylRySQ+b2Ih+HXKoYTOU3IcjmlZYneeJuoG4KetLvNZhCy0ZqLNHr2Owge/Z
-SI33oh11WGsmD9eI902YDaQNX17zjAslI3GmFXsgUJ7pALSx8vKQ8cbvNsj4cAZV
-bR9+kMqyCzL0
-=6Vx+
+iQJGBAEBCAAwFiEEFXotnXXSul+1ztoAYtNGJTeZz8YFAmdDE/oSHHN2bGFzaWNA
+Z21haWwuY29tAAoJEGLTRiU3mc/GOw4P/1U8P8JhVkgVqw7lfNz6cInj3IfUKSlQ
++Bea8tkro0VWZBMI/cYjQZpDE+xBLLShZt7APHS3bE7fKHwuHDXq3alyaXFRFk9P
++Pp7LJV78in5f3a2v5oxld6QhyfJ/HUlpzp6MjTlP3yIf21G9dpHtfeiPHt/7M6C
+2526tVxO7AmEEADDjikNk5V8yNcO5wI2uhe1rUC5v/x95QcT6wDzLrbexUApXPUQ
+fTfB6ng3ioHGrnPGr/dsj8TR8CIyumsOH1mtttPCfpivzTWRi4uX1sSutWkt3aau
+VjkOx0mry/kaguvbPdC/5nUrzvdyQtiL7Uay7MYA7mEFY44qwIBpvgzaMyBroqDp
+2DQfv607Fxuc0UcMrpOKGjw3YO7IQhVlMR3E9Ruxyqq0NZ2X5KNa/sJfPodAhG35
+B6F/1/yPln/ZAHjiiPkDXIHeMmEtzyqvx+pixW5aAkfa/2ZM7GC9wTMEBgvu7KBp
+la+ypfE33h81KBSqDmNCjow1r//zlN00JTHhLKHd7T0rBaa3cQ2iFLczzhFMwWwx
+C1GuwawonFHewM09vfe3+7kYXpE+dcjz2xTzUhWSRAcufrsuYvpeiLQG+LWxfPMH
+FxYIWNZzb7dYNs5ug9f0prgfejiGY+ntlOLHMTv41dOq4dzFpSBveVGKeyTFEICJ
+1LsyUvM40wZc
+=gBCN
 -----END PGP SIGNATURE-----
