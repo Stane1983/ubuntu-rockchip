@@ -2395,6 +2395,25 @@ Description: Collection of video4linux support libraries (development files)
  This package contains the development files.
 Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
+Package: libv4l-rkmpp
+Version: 1.7.1-1
+Architecture: arm64
+Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
+Installed-Size: 210
+Depends: libc6 (>= 2.34), librockchip-mpp1
+Filename: dists/noble/main/binary-arm64/libv4l-rkmpp_1.7.1-1_arm64.deb
+Size: 46862
+MD5sum: d926591d7e1b48faea8dd3a54b88e5ce
+SHA1: 1fbaf04b97a3191b1937aacfc2e2241aab1c4c4d
+SHA256: 761d6c7f058dbb65c83d183b024b76bdbba8ba4ee64081fda111f1320c6cd212
+Section: libs
+Priority: optional
+Homepage: https://github.com/JeffyCN/libv4l-rkmpp
+Description: A rockchip-mpp V4L2 wrapper plugin for chromium video dec and enc
+ A V4L2 plugin that wraps rockchip-mpp for the chromium's V4L2 video decoder and VEA.
+ .
+ The original idea comes from v4l-gst.
+
 Package: libv4l2rds0t64
 Source: v4l-utils
 Version: 1.26.1-4build3
