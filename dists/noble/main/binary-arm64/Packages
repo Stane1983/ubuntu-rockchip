@@ -2276,13 +2276,13 @@ Source: mpp
 Version: 1.5.0-1
 Architecture: arm64
 Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 229
+Installed-Size: 231
 Depends: librockchip-mpp1 (= 1.5.0-1)
 Filename: dists/noble/main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
-Size: 46050
-MD5sum: 2a941e95b73702883ded110353b4c2b0
-SHA1: de30556fc6e0112aa1f33fc7414e307fea029c1a
-SHA256: 464657acc9a2cab958216b65ab68615019b994e63a3491570d5208ce27415385
+Size: 46548
+MD5sum: fc24fca9b581cffc541d318f32d0790a
+SHA1: 4b1ed0145fe308be0f341407e67da26f080ade91
+SHA256: bddd47c860b83f516ffec252d2848b62554bbe279cf0e4409133ea5d5c07ef04
 Section: libdevel
 Priority: optional
 Homepage: http://www.rock-chips.com
@@ -2293,13 +2293,13 @@ Source: mpp
 Version: 1.5.0-1
 Architecture: arm64
 Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 2144
+Installed-Size: 2203
 Depends: libc6 (>= 2.38), libstdc++6 (>= 5)
 Filename: dists/noble/main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
-Size: 888058
-MD5sum: 52d8e5dc211956afd49c723464909cb1
-SHA1: 32babccfb877d0237e4bd214b476ebed87e83273
-SHA256: 5e12d393a0716156e74ea7d9e6a6880766b3d23ece195098415a01b8051f197b
+Size: 907224
+MD5sum: c09d090a7ff777d07beedd29b08d91cd
+SHA1: 40fc40d4dded406b31a67bea32a9e9d53b8da5d5
+SHA256: 59df12cd5780420e1c670280294a8361f6eb9f352308ebe7c0a264bbaa37bdc0
 Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
@@ -2313,10 +2313,10 @@ Maintainer: Randy Li <randy.li@rock-chips.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
 Filename: dists/noble/main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
-Size: 31546
-MD5sum: bb7bf777dc7c18a84a4c4305a12497e6
-SHA1: bd8ab3b418829964c14b750a18b67e410d4c2f04
-SHA256: 075a188880a847ef892bc7eb2df77348267d5fccae2e819727c63dd543c63d9e
+Size: 31320
+MD5sum: 9eac00236b7ce112c64b4d27433e6fde
+SHA1: 77670f7f5cb9f539039d99ceb4bc09b4681c1dad
+SHA256: 6d3a288e95a0b5164ada4a930a25be6d514259f6eb085b1df1e6be71f985f13a
 Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
@@ -2497,10 +2497,10 @@ Maintainer: Randy Li <randy.li@rock-chips.com>
 Installed-Size: 1067
 Depends: librockchip-mpp1 (= 1.5.0-1), librockchip-vpu0 (= 1.5.0-1)
 Filename: dists/noble/main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
-Size: 127942
-MD5sum: 410b619deb142ed8edcfa695bdcaa3b0
-SHA1: cba13b0cb2edbb32e6ef74f0b55b2bb69d00c9d3
-SHA256: f2c57bd1a5b7315f4b9f6e38e289431eaf8c92a779730692920229cdcbd74c5a
+Size: 130252
+MD5sum: 6e4507a7d5b655c915ead3896bab37b3
+SHA1: bbb3424e5be71d213ecd90f8c5184b455b2cdeac
+SHA256: 468b813f5c8392633fdbe64ec1506f20535df2eb0bac2fa4e103c94fb791fd3c
 Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
