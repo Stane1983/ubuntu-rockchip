@@ -512,10 +512,10 @@ Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 348
 Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.108), libglib2.0-0t64 (>= 2.79.0), libgstreamer-plugins-base1.0-0 (>= 1.14), libgstreamer1.0-0 (>= 1.14), librga2, librockchip-mpp1, libx11-6
 Filename: dists/noble/main/binary-arm64/gstreamer1.0-rockchip1_1.14-4_arm64.deb
-Size: 73090
-MD5sum: 765376cae96698bce97d3a86b01791f0
-SHA1: 594740802e2a94754f8580897a79bba3ba2de54c
-SHA256: ab469f806ac607b7be7acee51626f32bf7f70dbf6313eb1630b80d5e1c7e79db
+Size: 73286
+MD5sum: d90074a9d76bac091296733c9fae9efa
+SHA1: 68ece6d96ae0a8cb42758fca6c5b7dd0f2439b54
+SHA256: 4261e4d585cf6dc3c7636624aa1b6a1935be31988201db50ee4c81e1c92b4ee3
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/gstreamer-rockchip
