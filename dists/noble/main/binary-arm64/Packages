@@ -3290,6 +3290,24 @@ Description: Capture test utility for video4linux devices
  This application can also serve as a generic video/TV viewer application.
 Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
+Package: rockchip-firmware
+Version: 20231105.git2107be54-19~noble
+Architecture: all
+Maintainer: Joshua Riek <jjriek@verizon.net>
+Installed-Size: 33562
+Replaces: armbian-firmware, orangepi-firmware
+Filename: dists/noble/main/binary-arm64/rockchip-firmware_20231105.git2107be54-19~noble_all.deb
+Size: 7429984
+MD5sum: 846e7ba48f0474762857fc8732278c52
+SHA1: 0093dafd0cd977ec5c83ea4e56e613b80d91a377
+SHA256: eb35399b8eb8cab650cc8f25e750b1e329ee0c7c7085acf9b2a252a4e7382987
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/Joshua-Riek/firmware/
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
+
 Package: rockchip-mpp-demos
 Source: mpp
 Version: 1.5.0-1
