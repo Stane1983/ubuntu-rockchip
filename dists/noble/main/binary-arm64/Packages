@@ -3294,13 +3294,13 @@ Package: rockchip-firmware
 Version: 20231105.git2107be54-19~noble
 Architecture: all
 Maintainer: Joshua Riek <jjriek@verizon.net>
-Installed-Size: 33562
+Installed-Size: 34694
 Replaces: armbian-firmware, orangepi-firmware
 Filename: dists/noble/main/binary-arm64/rockchip-firmware_20231105.git2107be54-19~noble_all.deb
-Size: 7429984
-MD5sum: 846e7ba48f0474762857fc8732278c52
-SHA1: 0093dafd0cd977ec5c83ea4e56e613b80d91a377
-SHA256: eb35399b8eb8cab650cc8f25e750b1e329ee0c7c7085acf9b2a252a4e7382987
+Size: 7660904
+MD5sum: c176681370564523084ca1870fb756d6
+SHA1: 114f11e585d2b412662578614c27db8e21cb8697
+SHA256: e77f68c9f85e541c8410969c0c1a65272820cda19bf1a5f8043aa62383c30bd2
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
