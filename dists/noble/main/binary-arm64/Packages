@@ -3352,3 +3352,237 @@ Description: Collection of command line video4linux utilities
   v4l2-sysfs-path: sysfs helper tool
 Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
+Package: xnest
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1873
+Depends: xserver-common (>= 2:21.1.12-1ubuntu1.1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.10.0), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libx11-6, libxau6 (>= 1:1.0.9), libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Filename: dists/noble/main/binary-arm64/xnest_21.1.12-1ubuntu1.1_arm64.deb
+Size: 724042
+MD5sum: 7ac62e4335abefe9c34768496dff3a45
+SHA1: cb2631c5a7c5f268305613ee730484dfbea114e6
+SHA256: 7774af97a0a1c1129d378cebba9ee9f405e4790c8923f8d64e9bcdb942b11bc0
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: all
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 5039
+Filename: dists/noble/main/binary-arm64/xorg-server-source_21.1.12-1ubuntu1.1_all.deb
+Size: 5067840
+MD5sum: 586209dce3273f572dbf1c10cfdb9d4e
+SHA1: fd586616f71626388bacee1a46605d0b22a46590
+SHA256: dd200a0b1dfaa5718feec4515edd50c88b0643e2711d9621e3f1ea2da934959d
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: all
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 149
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/noble/main/binary-arm64/xserver-common_21.1.12-1ubuntu1.1_all.deb
+Size: 33398
+MD5sum: 1a62c3493d6628348a1cb6ffdc9b1db3
+SHA1: bf474145766f8a5e8d6af648642c8423f95feda1
+SHA256: 7804c2044d6c90fe4111f5c08760554423acea4233c4d575dc1ec78b3e7b7d80
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xephyr
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 2644
+Depends: xserver-common (>= 2:21.1.12-1ubuntu1.1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.0), libgbm1 (>= 12.0.0~0), libgcrypt20 (>= 1.10.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libx11-6, libx11-xcb1 (>= 2:1.8.7), libxau6 (>= 1:1.0.9), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Filename: dists/noble/main/binary-arm64/xserver-xephyr_21.1.12-1ubuntu1.1_arm64.deb
+Size: 1004250
+MD5sum: 09d24502f16302b967a41f774112deac
+SHA1: 376721b8f0ae5bfb6597a11868ec631a251cfee6
+SHA256: e94b4189e00f258c7717208f31f3a5426daa9abdc2dfac04fd47a7e638a1942a
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-core
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 4433
+Depends: xserver-common (>= 2:21.1.12-1ubuntu1.1), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.3.0~rc1), libgcrypt20 (>= 1.10.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), librga2, libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Provides: xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-video-modesetting
+Filename: dists/noble/main/binary-arm64/xserver-xorg-core_21.1.12-1ubuntu1.1_arm64.deb
+Size: 1463042
+MD5sum: 25c6cae148ab47a03d838b168a84a95f
+SHA1: 84938906ca257b3e08509ad07d457716f5ae9ede
+SHA256: caaec05f114e217b45ebf9dcde6467948c5d30c372df47eb8d7a566bdeee1159
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1335
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2021.5), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Filename: dists/noble/main/binary-arm64/xserver-xorg-dev_21.1.12-1ubuntu1.1_arm64.deb
+Size: 208532
+MD5sum: 6372c3d149dcaab19560d0e23dae3077
+SHA1: 2c2493eb2f2a06fa1447dbb2d7c74c33edc9b415
+SHA256: a35965b75930781d9de501df2e3dac99856937b13ce1728e9d9603991c8e65ee
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 231
+Depends: xserver-common (>= 2:21.1.12-1ubuntu1.1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: dists/noble/main/binary-arm64/xserver-xorg-legacy_21.1.12-1ubuntu1.1_arm64.deb
+Size: 40152
+MD5sum: 84240b8d56d93fc33866714f5d07923f
+SHA1: d2cd672059f2a4f3c8e8cbe3230956d84b000496
+SHA256: 1e147c1fdb23674421f0ebd9259cf578f5391fadd32d270c967941993d8810d2
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xvfb
+Source: xorg-server
+Version: 2:21.1.12-1ubuntu1.1
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 2270
+Depends: xserver-common (>= 2:21.1.12-1ubuntu1.1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgcrypt20 (>= 1.10.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1), xauth, x11-xkb-utils
+Recommends: libgl1-mesa-dri
+Provides: xserver
+Filename: dists/noble/main/binary-arm64/xvfb_21.1.12-1ubuntu1.1_arm64.deb
+Size: 872638
+MD5sum: ed189b57a648ee8e0996c0866f36ae13
+SHA1: 43885b0e44f1670d152e493f09397913732a24c9
+SHA256: 113b5dead6289cae5fba5cb6532598136d1f29d085a0157e6a2f6e04a3fec011
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
