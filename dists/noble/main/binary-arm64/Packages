@@ -2909,16 +2909,16 @@ Description: Userspace interface to Rockchip RGA 2D accelerator
 
 Package: librockchip-mpp-dev
 Source: mpp
-Version: 1.5.0-1
+Version: 1.5.0-1ubuntu1
 Architecture: arm64
 Maintainer: Randy Li <randy.li@rock-chips.com>
-Installed-Size: 231
-Depends: librockchip-mpp1 (= 1.5.0-1)
-Filename: dists/noble/main/binary-arm64/librockchip-mpp-dev_1.5.0-1_arm64.deb
-Size: 46548
-MD5sum: fc24fca9b581cffc541d318f32d0790a
-SHA1: 4b1ed0145fe308be0f341407e67da26f080ade91
-SHA256: bddd47c860b83f516ffec252d2848b62554bbe279cf0e4409133ea5d5c07ef04
+Installed-Size: 232
+Depends: librockchip-mpp1 (= 1.5.0-1ubuntu1)
+Filename: dists/noble/main/binary-arm64/librockchip-mpp-dev_1.5.0-1ubuntu1_arm64.deb
+Size: 46742
+MD5sum: 8fc6b7410d7f1630aa0ce024f8c961ec
+SHA1: ac11221f553ee0403be9e8789bce81b2364f5dab
+SHA256: 880ebe4dfcaf08033ccea3ef54aa4142216a6da981df9d9dbc2bc88073aa820b
 Section: libdevel
 Priority: optional
 Homepage: http://www.rock-chips.com
@@ -2926,16 +2926,16 @@ Description: Media Process Platform
 
 Package: librockchip-mpp1
 Source: mpp
-Version: 1.5.0-1
+Version: 1.5.0-1ubuntu1
 Architecture: arm64
 Maintainer: Randy Li <randy.li@rock-chips.com>
 Installed-Size: 2203
 Depends: libc6 (>= 2.38), libstdc++6 (>= 5)
-Filename: dists/noble/main/binary-arm64/librockchip-mpp1_1.5.0-1_arm64.deb
-Size: 907224
-MD5sum: c09d090a7ff777d07beedd29b08d91cd
-SHA1: 40fc40d4dded406b31a67bea32a9e9d53b8da5d5
-SHA256: 59df12cd5780420e1c670280294a8361f6eb9f352308ebe7c0a264bbaa37bdc0
+Filename: dists/noble/main/binary-arm64/librockchip-mpp1_1.5.0-1ubuntu1_arm64.deb
+Size: 915360
+MD5sum: a9967a28b81a3fbe98a0ee9e71680c36
+SHA1: 750392b6a725b12519937858f77d94b83ba3ad4b
+SHA256: b0cbe11c893e1e0c33dcdd35aaaf77e2ba01a0bc311172b7c86c27267399fbb1
 Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
@@ -2943,16 +2943,16 @@ Description: Media Process Platform
 
 Package: librockchip-vpu0
 Source: mpp
-Version: 1.5.0-1
+Version: 1.5.0-1ubuntu1
 Architecture: arm64
 Maintainer: Randy Li <randy.li@rock-chips.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.34), librockchip-mpp1, libstdc++6 (>= 5)
-Filename: dists/noble/main/binary-arm64/librockchip-vpu0_1.5.0-1_arm64.deb
-Size: 31320
-MD5sum: 9eac00236b7ce112c64b4d27433e6fde
-SHA1: 77670f7f5cb9f539039d99ceb4bc09b4681c1dad
-SHA256: 6d3a288e95a0b5164ada4a930a25be6d514259f6eb085b1df1e6be71f985f13a
+Filename: dists/noble/main/binary-arm64/librockchip-vpu0_1.5.0-1ubuntu1_arm64.deb
+Size: 31608
+MD5sum: 47becb5094cc9c809a0d7d85a03d7784
+SHA1: 8d2d5666d23409d6dffdd5e47adc7d3ae81ec278
+SHA256: 4306d38b05082f251d082b04202c9da152c6bf686a0fe17d309b91071ba82080
 Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
@@ -3196,16 +3196,16 @@ Description: Collection of video4linux support libraries (development files)
 Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
 Package: libv4l-rkmpp
-Version: 1.7.1-1
+Version: 1.7.1-1ubuntu1
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 210
 Depends: libc6 (>= 2.34), librockchip-mpp1
-Filename: dists/noble/main/binary-arm64/libv4l-rkmpp_1.7.1-1_arm64.deb
-Size: 46862
-MD5sum: d926591d7e1b48faea8dd3a54b88e5ce
-SHA1: 1fbaf04b97a3191b1937aacfc2e2241aab1c4c4d
-SHA256: 761d6c7f058dbb65c83d183b024b76bdbba8ba4ee64081fda111f1320c6cd212
+Filename: dists/noble/main/binary-arm64/libv4l-rkmpp_1.7.1-1ubuntu1_arm64.deb
+Size: 47618
+MD5sum: 51cf5f6871efcc732fe0e43da20ff541
+SHA1: 9bf2a5adb34479dcb769a7333a939c48f370b5a4
+SHA256: c64d0c42f59118ea265af23cb9ddb72810d702c39949c2b3c3455b0197fa3a38
 Section: libs
 Priority: optional
 Homepage: https://github.com/JeffyCN/libv4l-rkmpp
@@ -3328,16 +3328,16 @@ Description: Firmware for Linux kernel drivers
 
 Package: rockchip-mpp-demos
 Source: mpp
-Version: 1.5.0-1
+Version: 1.5.0-1ubuntu1
 Architecture: arm64
 Maintainer: Randy Li <randy.li@rock-chips.com>
 Installed-Size: 1067
-Depends: librockchip-mpp1 (= 1.5.0-1), librockchip-vpu0 (= 1.5.0-1)
-Filename: dists/noble/main/binary-arm64/rockchip-mpp-demos_1.5.0-1_arm64.deb
-Size: 130252
-MD5sum: 6e4507a7d5b655c915ead3896bab37b3
-SHA1: bbb3424e5be71d213ecd90f8c5184b455b2cdeac
-SHA256: 468b813f5c8392633fdbe64ec1506f20535df2eb0bac2fa4e103c94fb791fd3c
+Depends: librockchip-mpp1 (= 1.5.0-1ubuntu1), librockchip-vpu0 (= 1.5.0-1ubuntu1)
+Filename: dists/noble/main/binary-arm64/rockchip-mpp-demos_1.5.0-1ubuntu1_arm64.deb
+Size: 129550
+MD5sum: 589abbe99fa150fc35e3dcc0c0848ddd
+SHA1: fb3a2512335369f9af2d73e37697a7e74a07c04b
+SHA256: 7f4abcc679f838f076ac2982d05160e2a40177fa5a18d7788681f335de49aead
 Section: libs
 Priority: optional
 Homepage: http://www.rock-chips.com
