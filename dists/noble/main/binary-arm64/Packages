@@ -3309,16 +3309,16 @@ Description: Capture test utility for video4linux devices
 Original-Maintainer: Gregor Jasny <gjasny@googlemail.com>
 
 Package: rockchip-firmware
-Version: 20241204.git2107be54-19~nobleubuntu1
+Version: 20241204.git2107be54-19~nobleubuntu2
 Architecture: all
 Maintainer: Joshua Riek <jjriek@verizon.net>
-Installed-Size: 34693
+Installed-Size: 60697
 Replaces: armbian-firmware, orangepi-firmware
-Filename: dists/noble/main/binary-arm64/rockchip-firmware_20241204.git2107be54-19~nobleubuntu1_all.deb
-Size: 7658968
-MD5sum: d53019b4b9f55e239a1d4ae0d371851a
-SHA1: 5f53f5b61f06124607adade5190dc32370695cba
-SHA256: b39391e737abc11f07d634551cd71db0745aa6240407aa83872e272947f451c7
+Filename: dists/noble/main/binary-arm64/rockchip-firmware_20241204.git2107be54-19~nobleubuntu2_all.deb
+Size: 12227674
+MD5sum: 62e099c72c4722eb5a77797effd54b67
+SHA1: 2f95671a5dfab56d0f99e9a12f292bb424ea0b55
+SHA256: e4946f7973fe3992b2e444f373906efb4a667d3fbfa2151741a6910977980df9
 Section: kernel
 Priority: optional
 Multi-Arch: foreign
