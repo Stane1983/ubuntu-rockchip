@@ -6,16 +6,16 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Stan's Rockchip repository
-Date: Thu, 12 Dec 2024 14:49:58 +0000
+Date: Tue, 31 Dec 2024 07:11:38 +0000
 MD5Sum:
- 9276584fcf582c0187a510cb9efad7db 53642 InRelease
+ bec55dd9b6e6a17ebe68b39157bff579 53645 InRelease
  ed189b57a648ee8e0996c0866f36ae13 872638 main/binary-arm64/xvfb_21.1.12-1ubuntu1.1_arm64.deb
  7dcf2d4e0ee5ee96c10c513a65758ce1 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  3394b811348b39b96035f73a78f37eda 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
  447825f561a593acb71b4fc2759b1e94 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
  058b65983215db007f50a80be84ef28e 707398 main/binary-arm64/v4l-utils_1.26.1-4build3_arm64.deb
  09599f3c48c8df353b6b612aba2a745e 526756 main/binary-arm64/libgstreamer1.0-dev_1.24.2-1_arm64.deb
- ffd521ccf5233083ad8e9fdf5ffa7513 38354 main/binary-arm64/Packages.gz
+ a03b0a3958e627902f43b07e2c803030 38344 main/binary-arm64/Packages.gz
  43ebcac11d752703719c002f69c010be 116734 main/binary-arm64/gstreamer1.0-gl_1.24.2-1ubuntu0.1_arm64.deb
  976ce43ff3dfe1b92db8b41c3f12bea4 117978 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.2-1ubuntu0.1_arm64.deb
  4829f346be91adec81c75e892c6a9abf 181704 main/binary-arm64/libswscale7_6.1.1-3ubuntu5_arm64.deb
@@ -40,6 +40,7 @@ MD5Sum:
  fdeaf530c7f5d657ecab97dd723a2058 18490848 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
  6372c3d149dcaab19560d0e23dae3077 208532 main/binary-arm64/xserver-xorg-dev_21.1.12-1ubuntu1.1_arm64.deb
  09d24502f16302b967a41f774112deac 1004250 main/binary-arm64/xserver-xephyr_21.1.12-1ubuntu1.1_arm64.deb
+ 77c9a30cbc2d06b5e2ff372e1e6e4688 90031892 main/binary-arm64/chromium-browser-stable_131.0.6778.252-1_arm64.deb
  b434aaa7b4eefb8ba15b0a74104f83ac 205756 main/binary-arm64/libswscale-dev_6.1.1-3ubuntu5_arm64.deb
  d217148bbbfef96060644c3bc108f8c2 78488 main/binary-arm64/libswresample-dev_6.1.1-3ubuntu5_arm64.deb
  76096e4c36c5280824794a29f07a3dcd 14457330 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
@@ -99,7 +100,7 @@ MD5Sum:
  c72682e867facd7df96f6c80ab6133d6 469676 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.2-1ubuntu0.1_arm64.deb
  a9967a28b81a3fbe98a0ee9e71680c36 915360 main/binary-arm64/librockchip-mpp1_1.5.0-1ubuntu1_arm64.deb
  8f71f3173a666ed5203de568198c9093 247430 main/binary-arm64/libdvbv5-dev_1.26.1-4build3_arm64.deb
- 12174dbd6bea8e143ca0cc5c65489f9d 184994 main/binary-arm64/Packages
+ a5ea207c935ab22765aeeee0c0a0f305 184994 main/binary-arm64/Packages
  a203d031cb7806ba6853c9a6ebbbe30d 14469324 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
  e217c859dae1ad8ccb2bc0a9f3b96097 4152606 main/binary-arm64/libavfilter-extra9_6.1.1-3ubuntu5_arm64.deb
  25a0bc74396c6c1512ffd3df416e0b83 19157474 main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
@@ -127,7 +128,6 @@ MD5Sum:
  51cf5f6871efcc732fe0e43da20ff541 47618 main/binary-arm64/libv4l-rkmpp_1.7.1-1ubuntu1_arm64.deb
  03aefeaa4fb6b4f4daa43fd07501afe2 73382 main/binary-arm64/gstreamer1.0-qt6_1.24.2-1ubuntu1_arm64.deb
  55274d96881b121428b369fa60d541b4 18361348 main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
- 8cfc84b8aadb727e5c2b69b063e3180f 89286160 main/binary-arm64/chromium-browser-stable_130.0.6723.162-1_arm64.deb
  4a4d11914c3c7a18d18ee9d3ff40cfb1 1412886 main/binary-arm64/libgstreamer1.0-0_1.24.2-1_arm64.deb
  a994e33e62d975dce4cc5446d2834cca 13951228 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
  a55bdcb1325d18ff804f5f4ac4924a20 32346 main/binary-arm64/libgstreamer-plugins-good1.0-0_1.24.2-1ubuntu1_arm64.deb
@@ -155,16 +155,16 @@ MD5Sum:
  7f13fee59518f7a874aa4ef08f33422a 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
  5b446f22e19d95f3b3dd7d455631b387 94178 main/binary-arm64/gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
  12aa82141a3e6717cea6091000e18db1 90936 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
- be5f9911c485163c0d7ea1aef08216f0 858 Release.gpg
+ 04d3bb00278c9f0031168c9843c99782 858 Release.gpg
 SHA1:
- 816c1ab540c993b8b806e225db0b1b82d62f4168 53642 InRelease
+ 0ac5e9cc972dc877a2f3c53771138b1f636988c8 53645 InRelease
  43885b0e44f1670d152e493f09397913732a24c9 872638 main/binary-arm64/xvfb_21.1.12-1ubuntu1.1_arm64.deb
  c46e67e98f904d5f99a2422dabb8ca4bc37bb6a9 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  9d01893f771fff75e9e37db86306cbb4c867bc7b 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
  d2e67721db06fd70e8d1f07758eb0bf69cb92bca 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
  a8a34f95f5e8305cb53583d36373f5ba883d64a4 707398 main/binary-arm64/v4l-utils_1.26.1-4build3_arm64.deb
  4d949eef7b9a9e1125251c9d58cfe96d49dbedf8 526756 main/binary-arm64/libgstreamer1.0-dev_1.24.2-1_arm64.deb
- d22c26cacb521dfa28e5e66ccded9a1c86a3b321 38354 main/binary-arm64/Packages.gz
+ fcd0e22defa4267b090d3374bd8b2460c687dd74 38344 main/binary-arm64/Packages.gz
  99d860ab22ac427fca47bf180363b7cb820f6d86 116734 main/binary-arm64/gstreamer1.0-gl_1.24.2-1ubuntu0.1_arm64.deb
  983506229863c90f2e7f241e26c53408a7ab799b 117978 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.2-1ubuntu0.1_arm64.deb
  85ed8c3b5243eef936723279daa7c52def4b3b98 181704 main/binary-arm64/libswscale7_6.1.1-3ubuntu5_arm64.deb
@@ -189,6 +189,7 @@ SHA1:
  4e7284e5b4891c6f5bf213a4e115d3d7e9529532 18490848 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
  2c2493eb2f2a06fa1447dbb2d7c74c33edc9b415 208532 main/binary-arm64/xserver-xorg-dev_21.1.12-1ubuntu1.1_arm64.deb
  376721b8f0ae5bfb6597a11868ec631a251cfee6 1004250 main/binary-arm64/xserver-xephyr_21.1.12-1ubuntu1.1_arm64.deb
+ 0cd1a228cc2454aab8be9ee8fdbc7a26023446b5 90031892 main/binary-arm64/chromium-browser-stable_131.0.6778.252-1_arm64.deb
  9ae250cb0dd94234c9f3dc66bdc17cf6f86a2ecc 205756 main/binary-arm64/libswscale-dev_6.1.1-3ubuntu5_arm64.deb
  6c5f1ce2535a060c03f39e9b1a83b654e3938923 78488 main/binary-arm64/libswresample-dev_6.1.1-3ubuntu5_arm64.deb
  dd686716ffb16fdf383849aaddcd8dcd759df662 14457330 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
@@ -248,7 +249,7 @@ SHA1:
  fac6ca7de7897559ee2ab48498bf5eb09fb0465b 469676 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.2-1ubuntu0.1_arm64.deb
  750392b6a725b12519937858f77d94b83ba3ad4b 915360 main/binary-arm64/librockchip-mpp1_1.5.0-1ubuntu1_arm64.deb
  e25da87892a6e8c6c62d8033d5b2249caa01a694 247430 main/binary-arm64/libdvbv5-dev_1.26.1-4build3_arm64.deb
- 9c68414913825562586539b1055d20e4db1062bc 184994 main/binary-arm64/Packages
+ a3164a04cdcf9877880213fd8d84ff40436e4c67 184994 main/binary-arm64/Packages
  1e10f58259e5d014bb5d7bffaba2ead1ff813333 14469324 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
  6ae09e582345e4b160dce2ac5586a46a5fc6bea6 4152606 main/binary-arm64/libavfilter-extra9_6.1.1-3ubuntu5_arm64.deb
  100215a437f24e23585973d61a90855df6eee53c 19157474 main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
@@ -276,7 +277,6 @@ SHA1:
  9bf2a5adb34479dcb769a7333a939c48f370b5a4 47618 main/binary-arm64/libv4l-rkmpp_1.7.1-1ubuntu1_arm64.deb
  8aa870a195aa8277f1d0772c15f5222a18087873 73382 main/binary-arm64/gstreamer1.0-qt6_1.24.2-1ubuntu1_arm64.deb
  8838e27038ba2b2a5da436890c962cf11c695b11 18361348 main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
- 7666615e07846cf2326b2f246c4e9686cff0c6d8 89286160 main/binary-arm64/chromium-browser-stable_130.0.6723.162-1_arm64.deb
  8be7d26ab694427685a15bfb740c4b148ae70b93 1412886 main/binary-arm64/libgstreamer1.0-0_1.24.2-1_arm64.deb
  487bfe95149e74fcf3b718a65818c4d6bc4b39b0 13951228 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
  a36ef445fe9934df3d4752649e0721128a42c1d4 32346 main/binary-arm64/libgstreamer-plugins-good1.0-0_1.24.2-1ubuntu1_arm64.deb
@@ -304,16 +304,16 @@ SHA1:
  c58ba38a34b3ef4a9a3cf6b52b2723118a083e12 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
  436d9c71ecb37dafa888a81532a891be9c12997c 94178 main/binary-arm64/gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
  a28a05f6aceeba3ee182b1767894a105aef7da3a 90936 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
- 21ccdbf8322e89cd0b3d848edf18ef62d9f31112 858 Release.gpg
+ 7a83004b1991b590226b179a1b089b5fe77ad36c 858 Release.gpg
 SHA256:
- 3a1b2d2a7dbadd678419f50838bdab20c13fb23eaffe6cae321365d5b8635a74 53642 InRelease
+ 4ba5a861be53c8b1b65ce712c796ca7009c3b466a117005a3ca776440ebaf679 53645 InRelease
  113b5dead6289cae5fba5cb6532598136d1f29d085a0157e6a2f6e04a3fec011 872638 main/binary-arm64/xvfb_21.1.12-1ubuntu1.1_arm64.deb
  a36b40624726d4b5e12b5d70d43ceb7ea174061993c92572c7be0face1b67c95 13652918 main/binary-arm64/libmali-valhall-g610-g6p0-x11-wayland-gbm_1.9-1_arm64.deb
  56e87ba4c5b6e5b0b9e9d000ab2a5b856d0373598c93f169f15dc8e75a1875cd 7856006 main/binary-arm64/libmali-bifrost-g52-g24p0-without-cl-dummy-gbm_1.9-1_arm64.deb
  edb7918f7505674e8af219d8b54707d90b332fe1f4181e4c036546b1532c6047 18370306 main/binary-arm64/libmali-bifrost-g31-g24p0-wayland-gbm_1.9-1_arm64.deb
  8853e95e03875029c3240ff92edf7a5fcce714a6f232c1e81fc522a4ef42018c 707398 main/binary-arm64/v4l-utils_1.26.1-4build3_arm64.deb
  a52a6137cb9f4f6db44068e2da485b6072a2712b5a1fcabae408ac965342b227 526756 main/binary-arm64/libgstreamer1.0-dev_1.24.2-1_arm64.deb
- 39a04c1aebd515ca9e23c39079ee14fcbddcaa1b6e9b2c78f89f6160b62dfe82 38354 main/binary-arm64/Packages.gz
+ d9af0c9cbffd8cf9bf2140c836c30e685459d26e3a74ffd81b049d2efb1644f4 38344 main/binary-arm64/Packages.gz
  72d906af245e1621095ab38cbd5764d95175f7280eb1e7fab100482f2189f56b 116734 main/binary-arm64/gstreamer1.0-gl_1.24.2-1ubuntu0.1_arm64.deb
  72bb0ab35d65c610af53b097a14b7ac0b5f755686ec105df662e4bf9ce10bd1a 117978 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.2-1ubuntu0.1_arm64.deb
  6f0228ad6b5671445de1f4047a0dc27eb4d874e9e39938bcebacd06ae03e4179 181704 main/binary-arm64/libswscale7_6.1.1-3ubuntu5_arm64.deb
@@ -338,6 +338,7 @@ SHA256:
  eafb9ad2ea789251f9d3f6d89239d6f50bd5398d7b68007d5213e97926c29591 18490848 main/binary-arm64/libmali-bifrost-g52-g24p0-x11-wayland-gbm_1.9-1_arm64.deb
  a35965b75930781d9de501df2e3dac99856937b13ce1728e9d9603991c8e65ee 208532 main/binary-arm64/xserver-xorg-dev_21.1.12-1ubuntu1.1_arm64.deb
  e94b4189e00f258c7717208f31f3a5426daa9abdc2dfac04fd47a7e638a1942a 1004250 main/binary-arm64/xserver-xephyr_21.1.12-1ubuntu1.1_arm64.deb
+ d9ddcbb59e5d3faa8f75fe822a0f4a6f6874de38175cb944bac41a3fb9de110e 90031892 main/binary-arm64/chromium-browser-stable_131.0.6778.252-1_arm64.deb
  ce552ff1c787fa793a30a242d2954a9dc6faec5d58c74b9284f3ba0acd8b51c7 205756 main/binary-arm64/libswscale-dev_6.1.1-3ubuntu5_arm64.deb
  e1951caeb736fd879e1be94a0768d2bef2f3e6b64f4e5292a0b3a2d86957ef6c 78488 main/binary-arm64/libswresample-dev_6.1.1-3ubuntu5_arm64.deb
  2a493b1dd92280a56d8acecd71a86dda661879595c6658f1e52782ad12b62cb3 14457330 main/binary-arm64/libmali-bifrost-g31-g13p0-gbm_1.9-1_arm64.deb
@@ -397,7 +398,7 @@ SHA256:
  b0e8bf39eef70a0bae6ed6b0a3af3f7281f34153cd0f73564a3d4b21c77f4635 469676 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.2-1ubuntu0.1_arm64.deb
  b0cbe11c893e1e0c33dcdd35aaaf77e2ba01a0bc311172b7c86c27267399fbb1 915360 main/binary-arm64/librockchip-mpp1_1.5.0-1ubuntu1_arm64.deb
  15049ab7f8cceba03cf4b211b747d18fc33eac4034590d37cfc47b4e11b6f9b8 247430 main/binary-arm64/libdvbv5-dev_1.26.1-4build3_arm64.deb
- 6495cd80f586df3ce1fb3c071fde4ca55cd3b78dcc782762855f03678056a385 184994 main/binary-arm64/Packages
+ d23db979f32d4a0400cef86a670592ad600373b89bb53b6b32e9b8b43729f725 184994 main/binary-arm64/Packages
  5502dcb443f78057c18be7863531853a2b64e47aa6cb62370c612f9128a0f7f0 14469324 main/binary-arm64/libmali-bifrost-g52-g13p0-wayland-gbm_1.9-1_arm64.deb
  70927304f67a44c3e2de315b0be5e7b54da666a486c44795a612b61a32985cf6 4152606 main/binary-arm64/libavfilter-extra9_6.1.1-3ubuntu5_arm64.deb
  2a33e665702a2f2dbccf3e2d05c719329b88d28915c666edee39446c0693d5f7 19157474 main/binary-arm64/libmali-valhall-g610-g24p0-gbm_1.9-1_arm64.deb
@@ -425,7 +426,6 @@ SHA256:
  c64d0c42f59118ea265af23cb9ddb72810d702c39949c2b3c3455b0197fa3a38 47618 main/binary-arm64/libv4l-rkmpp_1.7.1-1ubuntu1_arm64.deb
  59e90176af282e7ddfd85f80ed3120ba329d18f3ff3fc13ba72a6526ac052760 73382 main/binary-arm64/gstreamer1.0-qt6_1.24.2-1ubuntu1_arm64.deb
  b14bf5e952e7d9bc7203aa0a92d19a2726f3ba0a1d6df8551304a24b0f54d59e 18361348 main/binary-arm64/libmali-bifrost-g31-g24p0-gbm_1.9-1_arm64.deb
- ed906c12817a142c33f1ab1b0af95e10ac869abae7a02b83a72a4d90dda70982 89286160 main/binary-arm64/chromium-browser-stable_130.0.6723.162-1_arm64.deb
  b068c8c6f6df4d69be90637bbf2cc20055f2f5b7ed9586115aa293e66baa42fe 1412886 main/binary-arm64/libgstreamer1.0-0_1.24.2-1_arm64.deb
  c816c3a422c9fed817e6b490ae6975a5a787fb3d99c252b901c02a3cea2af814 13951228 main/binary-arm64/libmali-bifrost-g31-g2p0-gbm_1.9-1_arm64.deb
  18993a92d75c6e6fd85efd922e19f39a852eb2722ab2860262805ddb7c884ff7 32346 main/binary-arm64/libgstreamer-plugins-good1.0-0_1.24.2-1ubuntu1_arm64.deb
@@ -453,4 +453,4 @@ SHA256:
  84f98dfbcc0f867f0d5d7b39c19d5d025a961ca5e1b3b6ec3dc222b95fb063a1 18363248 main/binary-arm64/libmali-bifrost-g31-g24p0-only-cl_1.9-1_arm64.deb
  506c2a5a600bd560c8821a2949bc21f859e5d372477d263b4559368eb94dc165 94178 main/binary-arm64/gstreamer1.0-opencv_1.24.2-1ubuntu4_arm64.deb
  5a5c3a5d63592932542fd52fe14b8f25b72771a2ccf3d5f10e6d5147dd7811d3 90936 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.2-1_arm64.deb
- 9fe51365eac5ee6850f5efc7cf728301f269ccb2eda67411ab5269da51d8dc33 858 Release.gpg
+ 97b7a5041e7360cee3949dca06fa558d697d825d8d182c326aaa453c19c47b4c 858 Release.gpg
